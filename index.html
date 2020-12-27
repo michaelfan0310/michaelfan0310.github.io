@@ -25,6 +25,10 @@ h2 {
     font-size: 1.6em;
     font-style: italic;
 }
+     
+     #slideshow {position: relative;
+        left:36%;}
+     
 .wrapper {
     border:9px groove #B0C4DE; 
     background: #849AA9 url(bg1.gif) top left repeat-y;
@@ -72,7 +76,19 @@ h2 {
               My words <br></h1>
                   <h2>  Michael's Matrix Quadrant... </h2>
 
-      <img id="coverpic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEmFrr-oMnUgTs4oImcJ9QS4dsF145LYwO3Q&usqp=CAU" >
+     
+    <div id="slideshow">
+                    <img src="https://pic2.zhimg.com/v2-d39ee87d5987822b492ae8b5d41a60c9_1440w.jpg?source=172ae18b" alt="RosettaStone" width="360" height="180" />
+                    <img src="https://png.pngtree.com/thumb_back/fh260/background/20200724/pngtree-high-tech-web-connect-circle-technology-background-image_359324.jpg"alt="techNet" width="360" height="180" />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-ImDXB_ZUmnLXAwJJ5OTlWoc4_2IV2lrCug&usqp=CAU"alt="highTech" width="360" height="180" />
+                    <img src="https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-business-technology-digital-high-tech-world-background-backgroundtechnology-backgroundhigh-tech-backgroundworld-image_79012.jpg" alt="Digital Business" width="360" height="180"  />
+                    <img src="https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-high-tech-curve-ad-background-backgroundblue-backgroundrayintelligenttechnological-senseflashhighlightlight-image_72399.jpg" alt="senseflashhighlightlight" width="360" height="180" />
+                    <img src="https://png.pngtree.com/thumb_back/fh260/back_our/20200702/ourmid/pngtree-high-tech-technology-background-image_347641.jpg" alt="electicCircuit" width="360" height="180" />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRj-Y2Xi1Nem1gJS5qi5ceosrcVojWJemK2g&usqp=CAU" alt="RosettaStone" width="360" height="180" />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEmFrr-oMnUgTs4oImcJ9QS4dsF145LYwO3Q&usqp=CAU"alt="techCurve" width="360" height="180"  >
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQecHIBAj3Pnw2MFYqsvVFtbGU5IrvesyfMCA&usqp=CAU" alt="electicGlobal" width="360" height="180" />
+                
+    </div>
 
               <h6> <a href=https://michaelfan0310.github.io/travel/walkin2020.html id="buttonA">Travel</a>    
                   <a href=https://michaelfan0310.github.io/news/pandemicatearth.html id="buttonB"> News </a>    
@@ -91,6 +107,40 @@ everybody is being entertained under the net, <br>
 Maybe just to fight and to feel it   </h3>
 
 <h4>It's Fan Michael's Blog...   </h4> </div>
+        
+        
+<script>
+    //*function takes in a reference to a DOM element,
+     //*assumes each of its children are <img> tags,
+    //* and then makes a simple slideshow out of the images.
+    //* @param container A DOM element   
+   var slideShow = function(container) {
+       this.images = [];
+       this.curImage = 0;
+       for (i = 0; i < container.childElementCount; i++) {
+           this.images.push(container.children[i]);
+           this.images[i].style.display = "none";
+       }
+       
+       // Handle going to to the next slide
+       var nextSlide = function() {
+           for (var i = 0; i < this.images.length; i++) {
+               this.images[i].style.display = "none";
+           }
+           this.images[this.curImage].style.display = "block";
+           this.curImage++;
+           if (this.curImage >= this.images.length) {
+               this.curImage = 0;
+           }
+           window.setTimeout(nextSlide.bind(this), 1500);
+       };
+       
+       nextSlide.call(this);
+   };</script>
+    <script>
+    slideShow(document.getElementById("slideshow"));
+    </script>
+
 
     </body>
 </html>
