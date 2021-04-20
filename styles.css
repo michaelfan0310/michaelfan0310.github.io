@@ -57,7 +57,7 @@ background-color: rgb(211, 195, 48);}
 color: rgb(9, 255, 0);
 text-decoration: none;   }
 
-#buttonC:hover,  #buttonC:focus{color:whitesmoke;
+#buttonC:hover,  #buttonC:focus {color:whitesmoke;
 background-color: rgb(64, 48, 211);}
 #buttonC:active {
    color: purple;
@@ -76,9 +76,7 @@ background-color: rgb(48, 211, 89);}
    color: rgb(4, 107, 155);
   text-decoration: none;   }
 
-#buttonA{border:6px groove rgb(213,213,213);
-               color:#696969;
-             background-color:#A9A9A9;
+#buttonA{
              text-decoration:none;
              }
 
