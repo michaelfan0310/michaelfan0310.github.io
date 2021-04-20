@@ -47,9 +47,9 @@ padding:26px; }
 
 #buttonA:hover,  #buttonA:focus{color:whitesmoke;
   background-color: aquamarine;}
-#buttonA:active {
+/* #buttonA:active {
  color: red;
-   text-decoration: none;   }
+   text-decoration: none;   }"/
 
 #buttonB:hover,  #buttonB:focus{color:whitesmoke;
 background-color: rgb(211, 195, 48);}
