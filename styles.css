@@ -80,30 +80,20 @@ background-color: rgb(48, 211, 89);}
              text-decoration:none;
              }
 
-#buttonB{border:6px groove rgb(213,213,213);
-               color:#696969;
-             background-color:#A9A9A9;
+#buttonB{
              text-decoration:none;
             }
 
-#buttonC{border:6px groove rgb(213,213,213);
-              color:#696969;
-             background-color:#A9A9A9;
+#buttonC{
              text-decoration:none;
              }
-#buttonD{border:6px groove rgb(213,213,213);
-             color:#696969;
-             background-color:#A9A9A9;
+#buttonD{
              text-decoration:none;
              }
-#buttonE{border:6px groove rgb(213,213,213);
-           color:#696969;
-           background-color:#A9A9A9;
+#buttonE{
            text-decoration:none;
            }
-#buttonF{border:6px groove rgb(213,213,213);
-           color:#696969;
-           background-color:#A9A9A9;
+#buttonF{
            text-decoration:none;
            }
 .p3{
