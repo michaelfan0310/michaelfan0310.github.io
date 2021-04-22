@@ -79,19 +79,21 @@ background-color: rgb(48, 211, 89);}
   text-decoration: none;   }
 
 #buttonA{   
-           
+           color:#fff;
              text-decoration:none;
              }
 
 #buttonB{
+          color:#fff;
              text-decoration:none;
             }
 
 #buttonC{
+          color:#fff;
              text-decoration:none;
              }
 #buttonD{
-          
+          color:#fff;          
              text-decoration:none;
              }
 #buttonE{
@@ -99,7 +101,7 @@ background-color: rgb(48, 211, 89);}
            text-decoration:none;
            }
 #buttonF{
-         
+         color:#fff;
            text-decoration:none;
            }
 a {text-decoration:none;}
