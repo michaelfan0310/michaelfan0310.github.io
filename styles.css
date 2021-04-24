@@ -24,6 +24,7 @@ font-style: italic;
 }
 
 #slideshow img {
+          padding: 7% 0 7% 0;
 display: block;
 margin-left: auto;
 margin-right: auto;
