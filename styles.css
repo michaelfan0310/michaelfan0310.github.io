@@ -1,46 +1,43 @@
 body {
-font: 30px/25px georgia, serif;
-text-align: center;
-line-height:108px;
-color: #fff;
-background: #748A9B url(bg2.gif) 0 0 repeat-y;
-margin: 0 ;
-padding-top:60px;
-font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
 
+text-align: center;
+
+color: #fff;
+
+margin: 0 ;
+font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
 }
-h1 {line-height: 1.3;
-font-size: 2.8em}
+
 h2 {
 display: block;
 padding-top: 0;
 padding-bottom: 30px;
 border-top: none;
 color: rgba(255,255,255,0.6);
-font-family: "Parisienne";
-font-size: 1.8em;
+font-family: Parisienne;
+font-size: 1.5em;
 font-style: italic;
-
 }
 
 #slideshow img {
-          
 display: block;
-margin-left: auto;
-margin-right: auto;
-width:35%;
-margin-bottom: 28px;          
+margin: 0 auto 0;
+padding: 4% 3% 2%;
+width:83%;
 
 }
+.wrapperA {
+  margin-top:3%;
+  background: #bae8e8 url(bg2.gif) 0 0 repeat-y;}
 
 .wrapper1, .wrapper2{
 border:3px groove #B0C4DE;
-background: #849AA9;
+background: #706c61;
 text-align: center;
 line-height:68px;
 width: 80%;
-margin: 80px auto 80px auto;
-padding:26px; }
+margin: 50px auto 80px auto;
+padding:25px; }
 
 <!--Maybe consider it later! #coverpic{
           width:700px; height:300px;  rgba(180,180,180,0.4);
@@ -48,19 +45,18 @@ padding:26px; }
 
 #buttonA:hover,  #buttonA:focus{color:whitesmoke;
   background-color: aquamarine;}
-
 #buttonA:active {
  color: red;
-   text-decoration: none;   }
+ }
 
 #buttonB:hover,  #buttonB:focus{color:whitesmoke;
 background-color: rgb(211, 195, 48);}
 
 #buttonB:active {
 color: rgb(9, 255, 0);
-text-decoration: none;   }
+  }
 
-#buttonC:hover,  #buttonC:focus {color:whitesmoke;
+#buttonC:hover,  #buttonC:focus{color:whitesmoke;
 background-color: rgb(64, 48, 211);}
 #buttonC:active {
    color: purple;
@@ -79,44 +75,25 @@ background-color: rgb(48, 211, 89);}
    color: rgb(4, 107, 155);
   text-decoration: none;   }
 
-#buttonA{   
-           color: whitesmoke;
-             text-decoration:none;
-             }
+.btn .btn-outline-light{
 
-#buttonB{
-          color: whitesmoke;
-             text-decoration:none;
-            }
-
-#buttonC{
-        color: whitesmoke;
-             text-decoration:none;
-             }
-#buttonD{
-        color: whitesmoke;       
-             text-decoration:none;
-             }
-#buttonE{
-           color:#696969;
-           text-decoration:none;
-           }
-#buttonF{
-       color: whitesmoke;
-           text-decoration:none;
-           }
-a {text-decoration:none;}
-
+text-decoration: none; }
+a{color:#feffde;}
 .p3{
   font-size: 1.3em;
-  font-family: "Mrs Saint Delafield"}
+  font-family: Mrs Saint Delafield}
 
   .p4{
     font-size: 1.3em;
-    font-family: "Mrs Saint Delafield"}
+    font-family: Mrs Saint Delafield}
 
 h3{font-size:0.7em;
-font-family: "Mrs+Saint+Delafield"}
+font-family: Mrs+Saint+Delafield}
 
 h4{font-size:0.6em;
-font-family: "Parisienne:}
+font-family: Parisienne}
+
+@media only screen and (min-width: 768px)
+header.masthead .page-heading, header.masthead .post-heading, header.masthead .site-heading {
+    padding: 200px 0;
+}
