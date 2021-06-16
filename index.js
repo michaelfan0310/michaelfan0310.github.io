@@ -22,9 +22,9 @@ var slideShow = function(container) {
     nextSlide.call(this);
 };
  slideShow(document.getElementById("slideshow"));
- 
 
-$("buttonE").click(function(){
+
+$("#buttonE").click(function(){
       alert("On Construction!");
     }
 );
