@@ -28,6 +28,6 @@ $("#buttonE").click(function(){
       alert("On Construction!");
     }
 );
-$(".col-md-3").hover(function(){
-    alert("signup,see our member's content.");
-});
+// $(".col-md-3").hover(function(){
+//     alert("signup,see our member's content.");
+// });
