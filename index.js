@@ -24,7 +24,7 @@ var slideShow = function(container) {
  slideShow(document.getElementById("slideshow"));
 
 
-// $("#buttonE").click(function(){
+// $("#").click(function(){
 //       alert("On Construction!");
 //     });
 // $(".col-md-3").hover(function(){
