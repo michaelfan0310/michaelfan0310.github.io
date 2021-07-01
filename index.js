@@ -24,10 +24,9 @@ var slideShow = function(container) {
  slideShow(document.getElementById("slideshow"));
 
 
-$("#buttonE").click(function(){
-      alert("On Construction!");
-    }
-);
+// $("#buttonE").click(function(){
+//       alert("On Construction!");
+//     });
 // $(".col-md-3").hover(function(){
 //     alert("signup,see our member's content.");
 // });
