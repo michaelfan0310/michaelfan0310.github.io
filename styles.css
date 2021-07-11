@@ -39,45 +39,43 @@ width: 80%;
 margin: 50px auto 80px auto;
 padding:25px; }
 
-<!--Maybe consider it later! #coverpic{
-          width:700px; height:300px;  rgba(180,180,180,0.4);
-              filter:opacity(50%);  filter: blur(3px); }-->
 
-#buttonA:hover,  #buttonA:focus{color:whitesmoke;
+
+#buttonA:hover,  #buttonA:focus{
   background-color: aquamarine;}
 #buttonA:active {
  color: red;
  }
 
-#buttonB:hover,  #buttonB:focus{color:whitesmoke;
+#buttonB:hover,  #buttonB:focus{
 background-color: rgb(211, 195, 48);}
 
 #buttonB:active {
 color: rgb(9, 255, 0);
   }
 
-#buttonC:hover,  #buttonC:focus{color:whitesmoke;
+#buttonC:hover,  #buttonC:focus{
 background-color: rgb(64, 48, 211);}
 #buttonC:active {
    color: purple;
-  text-decoration: none;   }
+     }
 
-#buttonD:hover,  #buttonD:focus{color:whitesmoke;
+#buttonD:hover,  #buttonD:focus{
 background-color: rgb(224, 48, 195);}
 #buttonD:active {
    color: black;
-  text-decoration: none;   }
+    }
 
 
-#buttonF:hover,  #buttonF:focus {color:whitesmoke;
+#buttonF:hover,  #buttonF:focus {
 background-color: rgb(48, 211, 89);}
 #buttonF:active {
    color: rgb(4, 107, 155);
-  text-decoration: none;   }
+   }
 
 .btn .btn-outline-light{
-
-text-decoration: none; }
+                   color:whitesmoke;        
+                   text-decoration: none; }
 a{color:#feffde;
 text-shadow: 2px 2px #206a5d;  }
 .p3{
