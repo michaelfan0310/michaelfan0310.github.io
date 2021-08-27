@@ -81,7 +81,7 @@ background-color: rgb(15, 73, 29);
    }
 
 .btn:hover {transform: scale(1.5);}
-.navbar-brand:hover,.nav-item:hover {transform: scale(2.1);}
+.navbar-brand:hover,.nav-item:hover {transform: scale(1.8);}
 
 .btn .btn-outline-light{
   
