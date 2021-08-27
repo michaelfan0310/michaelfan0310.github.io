@@ -74,12 +74,16 @@ background-color: rgb(224, 48, 195);}
 
 
 #buttonF:hover,  #buttonF:focus {
-background-color: rgb(48, 211, 89);}
+background-color: rgb(15, 73, 29);
+}
 #buttonF:active {
    color: rgb(4, 107, 155);
    }
 
+.btn:hover {transform: scale(1.5);}
+
 .btn .btn-outline-light{
+  
                    color:whitesmoke;        
                    text-decoration: none; }
                    
@@ -102,8 +106,11 @@ font-family: Parisienne}
 h5{
   text-align: center;
 }
+p:hover {transform: scale(1.5);}
 
 @media only screen and (min-width: 768px)
-header.masthead .page-heading, header.masthead .post-heading, header.masthead .site-heading {
+header.masthead .page-heading, 
+header.masthead .post-heading, 
+header.masthead .site-heading {
     padding: 200px 0;
 }
