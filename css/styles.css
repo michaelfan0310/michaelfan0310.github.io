@@ -81,6 +81,7 @@ background-color: rgb(15, 73, 29);
    }
 
 .btn:hover {transform: scale(1.5);}
+.navbar-brand:hover,.nav-item:hover {transform: scale(2.1);}
 
 .btn .btn-outline-light{
   
@@ -93,7 +94,7 @@ text-shadow: 2px 2px #206a5d;  }
   font-size: 1.3em;
   font-family: Mrs Saint Delafield}
 
-  .p4{
+.p4{
     font-size: 1.3em;
     font-family: Mrs Saint Delafield}
 
