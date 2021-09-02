@@ -1,18 +1,14 @@
 body {
-
 text-align: center;
-
 color: #fff;
-
 margin: 0 ;
 font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
 }
 .navbar {
   position: fixed;
   top: 0;
-  left: 0;
+  
   /* over lay: #35313d54; */
-
 }
 /* .heading {
   font-size: 100px;
@@ -31,16 +27,32 @@ font-size: 1.5em;
 font-style: italic;
 }
 
+#bkpic{
+  height: 80vh;
+  width: 100vw;
+}
+
 #slideshow img {
 display: block;
-margin: 0 auto 0;
+margin: 10px auto 0 auto;
 padding: 4% 3% 2%;
-width:83%;
+width: 86%;
+/* height: 110%; */
 
 }
 .wrapperA {
   margin-top:3%;
-  background: #bae8e8 url(bg2.gif) 0 0 repeat-y;}
+  background: #bae8e8 url(bg2.gif) 0 0 repeat-y;
+  padding-bottom: 5%;
+}
+#page1{
+  height: 100vh;
+}
+#page2 {
+  background: #bae8e8;
+  padding-top: 5%;
+  height: 100vh;
+}
 
 .wrapper1, .wrapper2{
 border:3px groove #B0C4DE;
