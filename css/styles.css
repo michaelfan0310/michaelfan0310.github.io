@@ -28,8 +28,9 @@ font-style: italic;
 }
 
 #bkpic{
-  height: 80vh;
+  height: 100vh;
   width: 100vw;
+  z-index: -1;
 }
 
 #slideshow img {
@@ -37,32 +38,18 @@ display: block;
 margin: 10px auto 0 auto;
 padding: 4% 3% 2%;
 width: 86%;
-/* height: 110%; */
+/* height: 260px;  */
 
 }
 .wrapperA {
-  margin-top:3%;
-  background: #bae8e8 url(bg2.gif) 0 0 repeat-y;
-  padding-bottom: 5%;
+  position: absolute;
+  left: 35%;
+  bottom:1%;
+  z-index: 1;  
 }
 #page1{
   height: 100vh;
 }
-#page2 {
-  background: #bae8e8;
-  padding-top: 5%;
-  height: 100vh;
-}
-
-.wrapper1, .wrapper2{
-border:3px groove #B0C4DE;
-background: #706c61;
-text-align: center;
-line-height:68px;
-width: 80%;
-margin: 50px auto 80px auto;
-padding:25px; }
-
 
 
 #buttonA:hover,  #buttonA:focus{
@@ -70,7 +57,6 @@ padding:25px; }
 #buttonA:active {
  color: red;
  }
-
 #buttonB:hover,  #buttonB:focus{
 background-color: rgb(211, 195, 48);}
 
@@ -96,9 +82,10 @@ background-color: rgb(15, 73, 29);
 }
 #buttonF:active {
    color: rgb(4, 107, 155);
-   }
+   } 
 
 .btn:hover {transform: scale(1.5);}
+
 .navbar-brand:hover,.nav-item:hover {transform: scale(1.8);}
 
 .btn .btn-outline-light{
@@ -108,7 +95,16 @@ background-color: rgb(15, 73, 29);
                    
 a{color:#feffde;
 text-shadow: 2px 2px #206a5d;  }
+
+
+#bkpic2{
+  height: 100vh;
+  width: 100vw;
+  padding-top: 3%;
+}
+
 .p3{
+  /* margin-top: 6%; */
   font-size: 1.3em;
   font-family: Mrs Saint Delafield}
 
@@ -125,7 +121,18 @@ font-family: Parisienne}
 h5{
   text-align: center;
 }
+
 p:hover {transform: scale(1.5);}
+
+.wrapper1, .wrapper2{
+border:3px groove #B0C4DE;
+background: #706c61;
+text-align: center;
+line-height:68px;
+width: 80%;
+margin: 50px auto 80px auto;
+padding:25px; }
+
 
 @media only screen and (min-width: 768px){
 header.masthead .page-heading, 
