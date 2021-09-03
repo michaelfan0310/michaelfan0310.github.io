@@ -1,6 +1,6 @@
 body {
 text-align: center;
-color: #fff;
+color: rgba(170, 165, 165, 0.089);
 margin: 0 ;
 font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
 }
@@ -21,7 +21,7 @@ display: block;
 padding-top: 0;
 padding-bottom: 30px;
 border-top: none;
-color: rgba(255,255,255,0.6);
+color: rgba(199, 195, 195, 0.123);
 font-family: Parisienne;
 font-size: 1.5em;
 font-style: italic;
@@ -127,7 +127,7 @@ p:hover {transform: scale(1.5);}
 
 .wrapper1, .wrapper2{
 /* border:3px groove #B0C4DE; */
-background: #2b2f5042;
+background: #d6d6da1f;
 
 text-align: center;
 line-height:68px;
