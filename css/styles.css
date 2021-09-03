@@ -98,9 +98,10 @@ text-shadow: 2px 2px #206a5d;  }
 
 
 #bkpic2{
-  height: 100vh;
-  width: 100vw;
+  
+  width: 100vw; 
   padding-top: 3%;
+  padding-bottom: 5%;
 }
 
 .p3{
@@ -125,13 +126,19 @@ h5{
 p:hover {transform: scale(1.5);}
 
 .wrapper1, .wrapper2{
-border:3px groove #B0C4DE;
-background: #706c61;
+/* border:3px groove #B0C4DE; */
+background: #2b2f5042;
+
 text-align: center;
 line-height:68px;
 width: 80%;
 margin: 50px auto 80px auto;
 padding:25px; }
+
+#video{
+  position:relative;
+  margin-bottom: 10vw;
+}
 
 
 @media only screen and (min-width: 768px){
