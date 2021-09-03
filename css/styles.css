@@ -1,6 +1,6 @@
 body {
 text-align: center;
-color: rgba(170, 165, 165, 0.089);
+color: whitesmoke;
 margin: 0 ;
 font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
 }
@@ -13,7 +13,7 @@ font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
   font-weight: bold;
   border-bottom: 5px solid black;
 } */
-
+h1{color: rgba(255, 252, 252, 0.527);}
 h2 {
 display: block;
 padding-top: 0;
