@@ -7,9 +7,7 @@ font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
 .navbar {
   position: fixed;
   top: 0;
-  
-  /* over lay: #35313d54; */
-}
+  }
 /* .heading {
   font-size: 100px;
   font-weight: bold;
