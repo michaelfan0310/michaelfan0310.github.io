@@ -151,18 +151,25 @@ padding:22px; }
   padding-bottom: 9%;
   z-index: -1;
 }
+#greeting{
+  position:relative;
+  top:30%;
+  font-family: Cambria,cursive;
+  top:30%;;
+  font-size: 5rem;
+}
 #titlepage3{
   font-family: 'Lobster',cursive,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 3.5rem;
+  font-size: 4rem;
   position:relative;
-  top:20%;
+  top:30%;
   text-shadow: 2px 2px #1d695b;
 }
 #titlepage31{
   font-family: 'Lobster',cursive;
-  font-size: 3.5rem;
+  font-size: 3rem;
   position:relative;
-  top:30%;
+  top:35%;
   text-align: center;
   color: gray;
   font-family:   Arial, sans-serif;
