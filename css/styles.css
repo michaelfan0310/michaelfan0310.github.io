@@ -40,10 +40,11 @@ width: 86%;
 
 }
 .wrapperA {
-  position: absolute;
-  left: 35%;
-  bottom:1%;
-  z-index: 1;  
+  position: relative;
+  bottom: 11%;
+  z-index: 1;
+  display:block;
+  margin: 0 auto 5px auto;
 }
 #page1{
   height: 100vh;
