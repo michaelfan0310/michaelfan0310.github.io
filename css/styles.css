@@ -102,7 +102,7 @@ text-shadow: 2px 2px #206a5d;  }
 #bkpic2{
   
   width: 100vw;
-  height: 100vh;
+  height: 103vh;
   margin-bottom: -15px;
   padding-top: 3%;
   padding-bottom: 9%;
@@ -144,17 +144,17 @@ background: #d6d6da1f;
 text-align: center;
 line-height:68px;
 width: 80%;
-margin: 48px auto 48px auto;
+margin: 38px auto 38px auto;
 padding:22px; }
 
 #video{
   position:relative;
-  margin-bottom: 12vh;
+  margin-bottom: 14vh;
 }
 #bkpic3{
   
   width: 100vw;
-  height: 100vh; 
+  height: 106vh; 
   margin-top: -20px; 
   padding-top: 3%;
   padding-bottom: 9%;
@@ -162,9 +162,8 @@ padding:22px; }
 }
 #greeting{
   position:relative;
-  top:30%;
-  font-family: Cambria,cursive;
-  top:30%;;
+  top:20%;
+  font-family: Cambria,cursive;  
   font-size: 5rem;
 }
 #titlepage3{
