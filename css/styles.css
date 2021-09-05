@@ -103,7 +103,7 @@ text-shadow: 2px 2px #206a5d;  }
   
   width: 100vw;
   height: 100vh;
-  
+  margin-bottom: -15px;
   padding-top: 3%;
   padding-bottom: 9%;
 }
@@ -124,10 +124,16 @@ h4{font-size:0.6em;
 font-family: Parisienne}
 
 h5{
-  text-align: center;
+  
 }
 #todolist{
-  background-color: rgb(224, 238, 238); 
+  font-size: 1.3rem;
+  text-align: center;
+  background-color: rgba(237, 243, 243, 0); 
+
+  margin-top: -6px;
+  margin-bottom: -10px;
+  padding-top: 10px;
 }
 
 p:hover {transform: scale(1.5);}
@@ -148,8 +154,8 @@ padding:22px; }
 #bkpic3{
   
   width: 100vw;
-  height: 100vh;
-  
+  height: 100vh; 
+  margin-top: -20px; 
   padding-top: 3%;
   padding-bottom: 9%;
   z-index: -1;
@@ -178,7 +184,14 @@ padding:22px; }
   font-family:   Arial, sans-serif;
   -webkit-text-stroke: 2pt #1d695b;
 }
-
+footer{
+  margin-top: -55px;
+  margin-bottom: -15px;
+  padding-top: 20px;
+  height:5px;
+  background: #1d695b;
+  text-align: right;
+}
 
 
 @media only screen and (min-width: 768px){
