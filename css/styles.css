@@ -20,7 +20,7 @@ font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
 } */
 
 .navbar {
-  position: fixed;
+  
   top: 0;
   }
 /* .heading {
@@ -218,6 +218,7 @@ footer{
 }
 
 
+
 @media only screen and (min-width: 768px){
 header.masthead .page-heading, 
 header.masthead .post-heading, 
@@ -231,3 +232,4 @@ header.masthead .site-heading {
   font-size: 0.5rem;
 }
 }
+
