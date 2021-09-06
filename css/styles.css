@@ -132,6 +132,20 @@ text-shadow: 2px 2px #206a5d;  }
     font-size: 1.3em;
     font-family: Mrs Saint Delafield}
 
+#blogIndex {
+  position: absolute;
+  bottom: 18%;
+  right: 4%; 
+  background-color: #206a5d; 
+}
+
+#postIndex { 
+  position: absolute;
+  bottom: 18%;
+  right: 4%; 
+  background: #206a5d; 
+} 
+
 h3{font-size:0.7em;
 font-family: Mrs+Saint+Delafield}
 
@@ -141,7 +155,7 @@ font-family: Parisienne}
 /* h5{
   
 } */
-#todolist{
+.todolist{
   font-size: 1.3rem;
   text-align: center;
   background-color: rgba(237, 243, 243, 0); 
