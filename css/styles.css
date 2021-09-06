@@ -4,6 +4,21 @@ color: whitesmoke;
 margin: 0 ;
 font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
 }
+/* section{
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+} 
+
+.tBox{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+} */
+
 .navbar {
   position: fixed;
   top: 0;
@@ -123,9 +138,9 @@ font-family: Mrs+Saint+Delafield}
 h4{font-size:0.6em;
 font-family: Parisienne}
 
-h5{
+/* h5{
   
-}
+} */
 #todolist{
   font-size: 1.3rem;
   text-align: center;
