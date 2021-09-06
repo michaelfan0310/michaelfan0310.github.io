@@ -157,9 +157,7 @@ font-family: Parisienne}
 } */
 .todolist{
   font-size: 1.3rem;
-  text-align: center;
-  background-color: rgba(237, 243, 243, 0); 
-
+  text-align: center; 
   margin-top: -6px;
   margin-bottom: -10px;
   padding-top: 10px;
@@ -241,7 +239,7 @@ header.masthead .site-heading {
 }
 }
 
-@media only screen and (max-width: 1100px){
+@media only screen and (max-width: 1200px){
 .site-heading, .sub-heading{
   font-size: 0.5rem;
 }
