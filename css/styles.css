@@ -225,3 +225,11 @@ header.masthead .site-heading {
     padding: 200px 0;
 }
 }
+
+@media only screen and (max-width: 768px){
+.site-heading, .sub-heading{
+  font-size: 0.5rem;
+}
+
+
+}
