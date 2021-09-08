@@ -220,13 +220,30 @@ footer{
   text-align: right;
 }
 .carousel-item {
+  width: 100vw;
+  overflow-x: hidden;
   height: 100vh;
   min-height: 350px;
   background: no-repeat center center scroll;
-  -webkit-background-size: cover;
+    -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
+}
+.carousel-inner>.item {
+    -webkit-transition: 0s !important;
+    -o-transition: 0s !important;
+    transition: 0s !important;
+}
+.carousel-indicators{
+  margin-left: 75%;
+}
+
+.carousel-caption{
+  margin-bottom: 28%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.8rem;
 }
 
 
