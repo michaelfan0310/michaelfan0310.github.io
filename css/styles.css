@@ -217,9 +217,8 @@ padding:22px; }
   -webkit-text-stroke: 2pt #1d695b;
 }
 footer{
-  margin-top: -px;
-  margin-bottom: -25px;
-  padding-top: 20px;
+  margin-top: 0px;  
+  padding-top: 10px;
   padding-right: 10%;
   color:antiquewhite;
   height:5px;
@@ -230,7 +229,7 @@ footer{
 .carousel-item {
   width: 100vw;
   overflow-x: hidden;
-  height: 100vh;
+  height: 107vh;
   min-height: 350px;
   background: no-repeat center center scroll;
     -webkit-background-size: cover;
