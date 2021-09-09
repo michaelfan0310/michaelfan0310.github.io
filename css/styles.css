@@ -141,7 +141,7 @@ text-shadow: 2px 2px #206a5d;  }
 
 #postIndex { 
   position: absolute;
-  bottom: 18%;
+  top: 288%;
   right: 5%; 
   background: #206a5d; 
 } 
@@ -155,12 +155,17 @@ font-family: Parisienne}
 /* h5{
   
 } */
-.todolist{
+.todolist, .WorkPlan{
   font-size: 1.3rem;
   text-align: center; 
   margin-top: -6px;
   margin-bottom: -10px;
   padding-top: 10px;
+}
+#workPlan{
+   position: absolute;
+   right: 48%;
+  top: 218%; 
 }
 
 p:hover {transform: scale(1.5);}
@@ -181,10 +186,11 @@ padding:22px; }
 #bkpic3{
   
   width: 100vw;
-  height: 106vh; 
+  height: 109vh; 
   margin-top: -20px; 
   padding-top: 3%;
   padding-bottom: 9%;
+  margin-bottom: 0px; 
   z-index: -1;
 }
 #greeting{
@@ -211,13 +217,15 @@ padding:22px; }
   -webkit-text-stroke: 2pt #1d695b;
 }
 footer{
-  margin-top: -55px;
-  margin-bottom: -15px;
+  margin-top: -px;
+  margin-bottom: -25px;
   padding-top: 20px;
   padding-right: 10%;
+  color:antiquewhite;
   height:5px;
-  background: #1d695b;
-  text-align: right;
+  background-color: #1d695b;
+  text-align: right; 
+  
 }
 .carousel-item {
   width: 100vw;
@@ -237,7 +245,7 @@ footer{
     transition: 0s !important;
 }
 .carousel-indicators{
-  margin-left: 75%;
+  margin-left: 83%;
 }
 
 .carousel-caption{
@@ -258,7 +266,7 @@ header.masthead .site-heading {
 
 @media only screen and (max-width: 1200px){
 .site-heading, .sub-heading{
-  font-size: 0.5rem;
+  font-size: 0.3rem;
 }
 }
 
