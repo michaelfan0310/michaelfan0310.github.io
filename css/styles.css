@@ -177,7 +177,8 @@ text-align: center;
 line-height:68px;
 width: 80%;
 margin: 38px auto 38px auto;
-padding:22px; }
+padding:22px; 
+margin-bottom: -2px;}
 
 #video{
   position:relative;
