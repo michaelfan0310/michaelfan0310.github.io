@@ -30,3 +30,22 @@ var slideShow = function(container) {
 // $(".col-md-3").hover(function(){
 //     alert("signup,see our member's content.");
 // });
+
+new Vue({
+    el: "#app",
+    data: {
+        message: "Current Time:",
+        currentTime: null
+    },
+    methods: {
+        updateCurrentTime() {
+            this.currentTime = moment().format("LTS");
+        }
+    },
+    created() {
+        this.currentTime = moment().format("LTS");
+        setInterval(() => this.updateCurrentTime(), 1 * 1000);
+    }
+});
+
+
