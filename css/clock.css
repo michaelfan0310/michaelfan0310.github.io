@@ -2,17 +2,18 @@
 #clock {
     margin-top: 10%;
     height:240px;
-    font-size: 110px;
+    font-size: 9rem;
     font-family: arial;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
-  color: rgba(195, 226, 197, 0.623);
+    color: rgba(188, 243, 193, 0.623);
 }
 
 h2 {
 	text-align:center;
+    text-shadow: 2px 2px rgba(80, 202, 80, 0.37);
 }
 
 

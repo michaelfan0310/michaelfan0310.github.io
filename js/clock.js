@@ -1,8 +1,6 @@
 
-
-
-
 var h2 = document.getElementById('clock');
+var h1 = document.getElementById('greeting');
 
 // display current time by the second
 var currentTime = setInterval(function () {
@@ -14,10 +12,7 @@ var currentTime = setInterval(function () {
     var minutes = date.getMinutes();
 
     var seconds = date.getSeconds();
-
-    var ampm = (date.getHours()) < 12 ? 'AM' : 'PM';
-
-
+    
     //convert military time to standard time
 
     if (hours < 0) {
@@ -27,20 +22,24 @@ var currentTime = setInterval(function () {
     } else {
         hours = hours;
     }
+    h2.textContent = addZero(hours) + ":" + addZero(minutes) + ":" + addZero(seconds)
 
-
-    h2.textContent = addZero(hours) + ":" + addZero(minutes) + ":" + addZero(seconds) + "" + ampm;
+    if (hours < 12) {
+        h1.textContent = "Good Morning";
+    } else if (hours < 18 && hours >= 12) {
+        h1.textContent = "Good Afernoon";
+    } else {
+        h1.textContent = "Good Evning";
+    }
 
 }, 1000);
 
-
-
-
 function addZero(time) {
-
     return (time < 10) ? "0" + time : time;
-
 }
+
+
+
 
 
 
