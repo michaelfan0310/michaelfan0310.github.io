@@ -24,12 +24,12 @@ var currentTime = setInterval(function () {
     }
     h2.textContent = addZero(hours) + ":" + addZero(minutes) + ":" + addZero(seconds)
 
-    if (hours < 12) {
+    if (hours < 12 && hours>=5) {
         h1.textContent = "Good Morning";
     } else if (hours < 18 && hours >= 12) {
         h1.textContent = "Good Afernoon";
     } else {
-        h1.textContent = "Good Evning";
+        h1.textContent = "Good Evening";
     }
 
 }, 1000);
