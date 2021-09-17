@@ -1,0 +1,25 @@
+
+#clock {
+    margin-top: 10%;
+    height:240px;
+    font-size: 110px;
+    font-family: arial;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  color: rgba(195, 226, 197, 0.623);
+}
+
+h2 {
+	text-align:center;
+}
+
+
+
+.bigger {
+    font-weight:bold;
+    font-size: 18px;
+}
+
+
