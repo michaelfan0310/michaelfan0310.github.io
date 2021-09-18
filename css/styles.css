@@ -188,6 +188,7 @@ padding:22px;
 margin-bottom: -2px;}
 
 #video{
+  width:300px;
   position:relative;
   margin-top: -3px;
 }
@@ -292,9 +293,10 @@ header.masthead .site-heading {
   width:35px;
 }
 #video{
+  width:150px;
   position:relative;
-  left:-25%;
-    margin-top: -50px;
+  left:-40%;
+    margin-top: -100px;
 }
 #slideshow{
   margin-top: -20px;;
