@@ -68,7 +68,9 @@ width: 86%;
   height: 100vh;
 }
 
-
+#faviconSmall {
+  margin-right: 8px;
+}
 #buttonA:hover,  #buttonA:focus{
   background-color: aquamarine;}
 #buttonA:active {
