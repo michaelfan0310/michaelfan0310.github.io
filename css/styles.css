@@ -197,9 +197,10 @@ margin-bottom: -2px;}
 }
 #greeting{
   position:relative;
-  top:20%;
+  top:13%;
   font-family: Cambria,cursive;  
   font-size: 5rem;
+  
 }
 #titlepage3{
   font-family: 'Lobster',cursive,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
