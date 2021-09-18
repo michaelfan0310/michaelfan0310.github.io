@@ -68,6 +68,11 @@ width: 86%;
   height: 100vh;
 }
 
+#favicon {
+  width:150px;
+  height:90px; 
+}
+
 #faviconSmall {
   margin-right: 8px;
 }
@@ -265,7 +270,7 @@ footer{
 
 
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 1300px){
 header.masthead .page-heading, 
 header.masthead .post-heading, 
 header.masthead .site-heading {
@@ -274,8 +279,25 @@ header.masthead .site-heading {
 }
 
 @media only screen and (max-width: 1200px){
-.site-heading, .sub-heading{
-  font-size: 0.3rem;
+ .site-heading, .subheading h1{
+  padding: 50px 0;
+  font-weight: 100;
+  font-size: 20%;
+  margin-top: -140px;
+  line-height: 0.2;
+  -webkit-line-break: 10%;
+}
+#favicon{
+  height:20px;
+  width:35px;
+}
+#video{
+  position:relative;
+  left:-25%;
+    margin-top: -50px;
+}
+#slideshow{
+  margin-top: -20px;;
 }
 }
 
