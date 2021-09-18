@@ -301,5 +301,8 @@ header.masthead .site-heading {
 #slideshow{
   margin-top: -20px;;
 }
+.carousel-caption{
+  margin-bottom: 400px;
+}
 }
 
