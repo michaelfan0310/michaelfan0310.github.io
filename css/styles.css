@@ -316,8 +316,8 @@ header.masthead .site-heading {
 }
 #clock {
     margin-top: 6%;
-    height:70px;
-    font-size: 1.5rem;
+    height:15px;
+    font-size: 0.3rem;
     font-family: arial;
     font-weight: bold;
     display: flex;
@@ -331,6 +331,18 @@ header.masthead .site-heading {
    right: 43%;
   top: 218%; 
 }
+#titlepage3{
+  font-size: 1.5rem;
+  color:rgb(72, 155, 69);
+  top:1%;
+}
+#titlepage31{
+  font-size: 1.2rem;
+  color:rgb(213, 241, 213);
+  top:1%;
+  -webkit-text-stroke: 2pt #2c3f3c71;
+}
+
 
 }
 
