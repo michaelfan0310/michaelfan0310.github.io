@@ -26,10 +26,13 @@ var currentTime = setInterval(function () {
 
     if (hours < 12 && hours>=5) {
         h1.textContent = "Good Morning";
+
     } else if (hours < 18 && hours >= 12) {
         h1.textContent = "Good Afernoon";
+        $("#bkpic3").css("background-image", "url(image/postAfternoon2-bg.jpg)");
     } else {
         h1.textContent = "Good Evening";
+        $("#bkpic3").css("background-image", "url(image/post6-bg.jpg)");
     }
 
 }, 1000);
