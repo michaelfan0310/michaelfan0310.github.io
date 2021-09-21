@@ -23,4 +23,18 @@ h2 {
     font-size: 18px;
 }
 
+@media only screen and (max-width: 500px){
 
+#clock {
+    margin-top: 26%;
+    height:10px;
+    font-size: 60px;
+        font-family: arial;
+    font-weight: normal ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(6, 240, 6, 0);
+}
+
+}
