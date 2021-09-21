@@ -17,8 +17,8 @@ var currentTime = setInterval(function () {
 
     if (hours < 0) {
         hours = hours * -1;
-    // } else if (hours == 00) {
-    //     hours = 12;
+    } else if (hours == 24) {
+        hours = 0;
     } else {
         hours = hours;
     }
