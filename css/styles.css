@@ -327,9 +327,9 @@ header.masthead .site-heading {
 }
 #workPlan{
    position: absolute;
-   align-items: center;
-   right: 43%;
+  justify-items: center;
   top: 218%; 
+  left: 48%;
 }
 #titlepage3{
   font-size: 1.5rem;
