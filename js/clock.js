@@ -32,7 +32,7 @@ var currentTime = setInterval(function () {
         $("#bkpic3").css("background-image", "url(image/postAfternoon2-bg.jpg)");
     } else {
         h1.textContent = "Good Evening";
-        $("#bkpic3").css("background-image", "url(image/post6-bg.jpg)");
+        $("#bkpic3").css("background-image", "url(image/postEvening-bg.jpg)");
     }
 
 }, 1000);
