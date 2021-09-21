@@ -342,7 +342,37 @@ header.masthead .site-heading {
   top:1%;
   -webkit-text-stroke: 2pt #2c3f3c71;
 }
+.carousel-caption{
+  padding-top: 100px;
+}
 
 
 }
-
+@media only screen and (max-width: 468px){
+ .site-heading, .subheading h1{
+  padding: 30px 0;
+  font-weight: 100;
+  font-size: 20%;
+  margin-top: -140px;
+  line-height: 0.2;
+ 
+}
+#video{
+  width:50px;
+  position:relative;
+  justify-content: center;
+  margin-top: -50px;
+  opacity: 0.3;
+}
+#clock {
+    margin-top: 6%;
+    height:10px;
+    font-size: 0.1rem;
+    font-family: arial;
+    font-weight: normal ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(6, 240, 6, 0);
+}
+}

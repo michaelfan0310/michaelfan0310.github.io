@@ -6,6 +6,8 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <title>michael's blog</title>
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" /> -->
         <link rel="icon" href="favicon.ico">
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -28,7 +30,7 @@
          <link rel='stylesheet' type='text/css' href='css/clock.css'>
     </head>
   <body>
-
+<!-- <div class=container-fluid> -->
        <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #23242544;" id="mainNav">
          <div class="container">
            <a class="navbar-brand" href="https://polar-escarpment-84617.herokuapp.com/"><img id="faviconSmall" src="image/faviconSmall.png" alt="icon" width="40px" height="24px" />Michael's Blog</a>
@@ -138,16 +140,18 @@ everybody is being entertained under the same net, <br>
 </div>
 
 <div id="blogIndex"> 
-  <button type="button" class="btn btn-outline-success"><a href="https://polar-escarpment-84617.herokuapp.com/">Blogs &rarr; </a></button>
+  <button type="button" class="btn btn-outline-success"><a href="https://polar-escarpment-84617.herokuapp.com/">Blogs &rarr; </a></button> 
 </div>
+
+<video id="video" controls preload="auto">
+  <source src="audioVideo/2653.mp4" type="video/mp4">
+</video>
 
 <audio autoplay loop>
 <source src="audioVideo/nomadland.mp3" type="audio/mpeg">
 </audio>
 
-<video id="video" controls preload="auto" >
- <source src="audioVideo/2653.mp4"    type="video/mp4" >
-</video>
+
 </header>
 <!-- <div id="root"></div> -->
 
@@ -241,7 +245,7 @@ everybody is being entertained under the same net, <br>
  
 </section> -->
 <footer><img id="faviconSmall" src="image/faviconSmall.png" alt="icon" width="30px" height="18px" />&copy; 2018 Michael Fan</footer>
-
+<!-- </div> -->
   </body>
   <script src="jquery/jquery.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
