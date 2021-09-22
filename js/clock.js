@@ -30,9 +30,13 @@ var currentTime = setInterval(function () {
     } else if (hours < 18 && hours >= 12) {
         h1.textContent = "Good Afernoon";
         $("#bkpic3").css("background-image", "url(image/postAfternoon2-bg.jpg)");
+
     } else if (hours < 23 && hours >= 18){
         h1.textContent = "Good Evening";
+        
         $("#bkpic3").css("background-image", "url(image/postEvening2-bg.jpg)");
+       $("#myClass").addClass("overlay");
+       
     } else  {
         h1.textContent = "Good Night";
         $("#bkpic3").css("background-image", "url(image/postEvening-bg.jpg)");
