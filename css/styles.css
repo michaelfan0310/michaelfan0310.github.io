@@ -349,7 +349,7 @@ header.masthead .site-heading {
 }
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
  .site-heading, .subheading h1{
   padding: 30px 0;
   font-weight: 100;
@@ -361,7 +361,8 @@ header.masthead .site-heading {
   width:50px;
   position:relative;
   justify-content: center;
-  margin-top: -50px;
+  margin-top: 50px;
+  margin-left: 20px;
   opacity: 0.3;
 }
 
