@@ -32,6 +32,6 @@ var slideShow = function(container) {
 // });
 
 var CURRENTYEAR=document.getElementById('year');
-CURRENTYEAR.textContent= new Date().getFullYear()+" Michael Fan";
+CURRENTYEAR.textContent= new Date().getFullYear()+"         Michael Fan";
 
 
