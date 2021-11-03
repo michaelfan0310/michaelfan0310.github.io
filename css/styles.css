@@ -236,11 +236,11 @@ margin-bottom: -2px;}
 footer{
   margin-top: 0px;  
   padding-top: 10px;
-  padding-left: 3%;
+  padding-right: 3%;
   color:antiquewhite;
   height:5px;
   background-color: #1d695b;
-  text-align: left; 
+  text-align: right; 
   
 }
 .carousel-item {
