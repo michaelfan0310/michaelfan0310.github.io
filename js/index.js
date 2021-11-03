@@ -31,6 +31,7 @@ var slideShow = function(container) {
 //     alert("signup,see our member's content.");
 // });
 
-
+var CURRENTYEAR=document.getElementById('year');
+CURRENTYEAR.textContent= new Date().getFullYear()+" Michael Fan";
 
 
