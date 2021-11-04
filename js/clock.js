@@ -26,19 +26,23 @@ var currentTime = setInterval(function () {
 
     if (hours < 12 && hours>=5) {
         h1.textContent = "Good Morning";
+        h1.style.color="#49FF00";
 
     } else if (hours < 18 && hours >= 12) {
         h1.textContent = "Good Afernoon";
+        h1.style.color="#FF0000";
         $("#bkpic3").css("background-image", "url(image/postAfternoon2-bg.jpg)");
 
     } else if (hours < 23 && hours >= 18){
         h1.textContent = "Good Evening";
+        h1.style.color="#2B4F60";
         
         $("#bkpic3").css("background-image", "url(image/postEvening2-bg.jpg)");
        $("#myClass").addClass("overlay");
        
     } else  {
         h1.textContent = "Good Night";
+        h1.style.color="#3D2C8D";
         $("#bkpic3").css("background-image", "url(image/postEvening-bg.jpg)");
     }
 }, 1000);
