@@ -22,20 +22,24 @@ var currentTime = setInterval(function () {
     } else {
         hours = hours;
     }
-    h2.textContent = addZero(hours) + ":" + addZero(minutes) + ":" + addZero(seconds)
+    h2.textContent = addZero(hours) + ":" + addZero(minutes) + ":" + addZero(seconds);
+    
 
     if (hours < 12 && hours>=5) {
         h1.textContent = "Good Morning";
         h1.style.color="#49FF00";
+        h2.style.color="#49FF00";
 
     } else if (hours < 18 && hours >= 12) {
         h1.textContent = "Good Afernoon";
         h1.style.color="#FF0000";
+        h2.style.color="#FF0000";
         $("#bkpic3").css("background-image", "url(image/postAfternoon2-bg.jpg)");
 
     } else if (hours < 23 && hours >= 18){
         h1.textContent = "Good Evening";
         h1.style.color="#2B4F60";
+        h2.style.color="#2B4F60";
         
         $("#bkpic3").css("background-image", "url(image/postEvening2-bg.jpg)");
        $("#myClass").addClass("overlay");
@@ -43,6 +47,7 @@ var currentTime = setInterval(function () {
     } else  {
         h1.textContent = "Good Night";
         h1.style.color="#3D2C8D";
+        h2.style.color="#3D2C8D";
         $("#bkpic3").css("background-image", "url(image/postEvening-bg.jpg)");
     }
 }, 1000);
