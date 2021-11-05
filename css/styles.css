@@ -377,5 +377,9 @@ header.masthead .site-heading {
   z-index: -3;
   opacity: 0;
 }
+.main-date{
+  position: relative;
+  margin-top: -3%;
+}
 
 }
