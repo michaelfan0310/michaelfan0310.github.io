@@ -24,12 +24,22 @@ var slideShow = function(container) {
  slideShow(document.getElementById("slideshow"));
 
 
-// $("#").click(function(){
-//       alert("On Construction!");
-//     });
-// $(".col-md-3").hover(function(){
-//     alert("signup,see our member's content.");
-// });
+
+const d = new Date();
+const weekday= new Array(7);
+weekday[0] = "Sunday";
+weekday[1] = "Monday";
+weekday[2] = "Tuesday";
+weekday[3] = "Wednesday";
+weekday[4] = "Thursday";
+weekday[5] = "Friday";
+weekday[6] = "Saturday";
+
+var TODAY=document.getElementById('today');
+TODAY.textContent=weekday[d.getDay()];
+
+const date = d.getDate();
+document.getElementById("todate").innerHTML=date;
 
 var CURRENTYEAR=document.getElementById('year');
 CURRENTYEAR.textContent= new Date().getFullYear()+"         Michael Fan";
