@@ -2,9 +2,9 @@
 #clock {
     margin-top: 8%;
     height:240px;
-    font-size: 11rem;
+    font-size: 13rem;
     font-family: arial;
-    font-weight: bold;
+    font-weight: bolder;
     display: flex;
     justify-content: center;
     align-items: center;
