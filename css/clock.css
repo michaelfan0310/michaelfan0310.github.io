@@ -2,7 +2,7 @@
 #clock {
     margin-top: 8%;
     height:240px;
-    font-size: 9rem;
+    font-size: 11rem;
     font-family: arial;
     font-weight: bold;
     display: flex;
@@ -29,7 +29,7 @@ h2 {
     margin-top: 26%;
     height:10px;
     font-size: 60px;
-        font-family: arial;
+    font-family: arial;
     font-weight: normal ;
     display: flex;
     justify-content: center;
