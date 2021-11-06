@@ -45,7 +45,7 @@ font-style: italic;
 }
 .main-date{
   position: relative;
-  margin-top: 3%;
+  margin-top: -3%;
 }
 #bkpic{
   height: 100vh;
@@ -59,8 +59,8 @@ margin: 15px auto 0 auto;
 padding: 4% 3% 2%;
 width: 86%;
 /* height: 260px;  */
-
 }
+
 .wrapperA{
   display:block;
   margin: 10px auto 2px auto;
