@@ -276,7 +276,11 @@ footer{
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.8rem;
 }
-
+#emojiIndex{
+  position: relative;
+ margin-top: 10%;
+ margin-left: 90% ;
+}
 
 
 
