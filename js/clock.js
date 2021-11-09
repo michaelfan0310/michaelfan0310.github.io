@@ -1,7 +1,7 @@
 
 var h2 = document.getElementById('clock');
 var h1 = document.getElementById('greeting');
-
+var q =document.getElementById('question');
 // display current time by the second
 var currentTime = setInterval(function () {
     var date = new Date();
@@ -38,6 +38,7 @@ var currentTime = setInterval(function () {
 
     } else if (hours < 23 && hours >= 18){
         h1.textContent = "Good Evening";
+        q.textContent =  "Why are you still working?";
         h1.style.color="#2B4F60";
         h2.style.color="#2B4F60";
         
@@ -46,6 +47,7 @@ var currentTime = setInterval(function () {
        
     } else  {
         h1.textContent = "Good Night";
+        q.textContent =  "Why are you still working??DreamMakingTime";
         h1.style.color="#3D2C8D";
         h2.style.color="#3D2C8D";
         $("#bkpic3").css("background-image", "url(image/postEvening-bg.jpg)");
