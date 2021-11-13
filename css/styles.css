@@ -4,6 +4,14 @@ color: whitesmoke;
 margin: 0 ;
 font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
 }
+
+/* #myCanvas{
+    position: absolute;
+    top:20px;
+    left:0;
+    z-index: 100;
+    opacity: 9;
+} */
 /* section{
   width: 100vw;
   height: 100vh;
@@ -19,8 +27,7 @@ font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
   height: 100vh;
 } */
 
-.navbar {
-  
+.navbar {  
   top: 0;
   }
 /* .heading {
@@ -135,6 +142,7 @@ text-shadow: 2px 2px #206a5d;  }
   margin-bottom: -10px;
   padding-top: 3%;
   padding-bottom: 9%;
+  z-index: 1;
 }
 
 .p3{
