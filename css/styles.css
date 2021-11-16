@@ -206,7 +206,8 @@ margin-bottom: -2px;}
 #video{
   width:300px;
   position:relative;
-  margin-top: -3px;
+  margin-top: 110%;
+  z-index:11;
 }
 
 #bkpic3{

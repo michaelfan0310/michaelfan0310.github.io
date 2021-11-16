@@ -22,8 +22,8 @@ var t = 0;
 
 var shootingStar = function(x,y){
     this.position = new PVector(x,y);
-    this.velocity = new PVector(0,3);
-    this.acceleration = new PVector(random(-0.29,-0.3),random(0.8,1));
+    this.velocity = new PVector(0,2);
+    this.acceleration = new PVector(random(-0.2,-0.3),random(0.8,1));
     this.size = 2;
     this.speed = random(1,2);
     this.draw = function() {
@@ -50,15 +50,15 @@ stars.draw= function() {
     }
 };
 
-mouseClicked = function(){
-    stars.add(mouseX, mouseY);
-  };
+// mouseClicked = function(){
+//     stars.add(mouseX, mouseY);
+//   };
 var dots = [];
 // background(22, 13, 153, 0.096);
-rect(0,0,1980,1080);
+
 var draw = function() {
-    background(0, 69, 199, 13);
-if(stars.length>100){//this reduces the lagging
+    background(0, 99, 233, 3);
+if(stars.length>500){//this reduces the lagging
     stars.shift();
 }
     t++;
@@ -70,11 +70,11 @@ if(stars.length>100){//this reduces the lagging
     
     stars.draw();
     // fill(0, 4, 84);
-    rect(0,0,1980,1080);
+    
 
- for(var i=0;i<10;i++){
+ for(var i=0;i<200;i++){
      stroke(255, 255, 255);
-     strokeWeight(random(2.2,3.5));
+     strokeWeight(random(1.5,2.5));
      point(random(width),random(height));
  }
 };    

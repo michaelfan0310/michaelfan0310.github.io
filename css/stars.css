@@ -9,6 +9,6 @@
     position:absolute;
     top: 100%;
     left: 0;
-    z-index: 100;
+    z-index: 9;
     /* background-color:aquamarine(48, 145, 129); */
 }
