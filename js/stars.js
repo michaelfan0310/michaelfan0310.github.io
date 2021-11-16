@@ -1,8 +1,8 @@
+
 var sketchProc = function (processingInstance) {
     
-        var canvas = document.document.querySelector('canvas');        
-
-        // var c = canvas.getContext('2d');
+        var canvas = document.querySelector('#mycanvas');
+        var c = canvas.getContext('2d');
 
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
@@ -11,18 +11,24 @@ var sketchProc = function (processingInstance) {
 
         size(canvas.width, canvas.height);
         frameRate(30);
+  
+ 
+//shooting stars with PVectors
+//Click to make more!
 
-        var t = 0;
+
+
+var t = 0;
 
 var shootingStar = function(x,y){
     this.position = new PVector(x,y);
-    this.velocity = new PVector(-3,3);
+    this.velocity = new PVector(0,3);
     this.acceleration = new PVector(random(-0.29,-0.3),random(0.8,1));
     this.size = 2;
     this.speed = random(1,2);
     this.draw = function() {
         noStroke();
-        fill(255, 255, 255);
+        fill(255, 255, 255,1);
         ellipse(this.position.x,this.position.y,this.size,this.size);
     };
     this.update=function(){
@@ -44,37 +50,42 @@ stars.draw= function() {
     }
 };
 
-// mouseClicked = function(){
-//     stars.add(mouseX, mouseY);
-//   };
+mouseClicked = function(){
+    stars.add(mouseX, mouseY);
+  };
 var dots = [];
-background(230, 228, 240);
-rect(0,0,400,400);
+// background(22, 13, 153, 0.096);
+rect(0,0,1980,1080);
 var draw = function() {
-if(stars.length>50){//this reduces the lagging
+    background(0, 69, 199, 13);
+if(stars.length>100){//this reduces the lagging
     stars.shift();
 }
     t++;
-    if(t%40===20){
-        stars.add(random(0,500),random(-100,0));
-        stars.add(random(0,500),random(-100,0));
+    if(t%60===20){
+        stars.add(random(0,1000),random(-100,0));
+        stars.add(random(0,1000),random(-100,0));
         stars.add(random(400,500),random(200));
     }
     
     stars.draw();
-    fill(0, 4, 84,20);
-    rect(0,0,400,400);
+    // fill(0, 4, 84);
+    rect(0,0,1980,1080);
 
  for(var i=0;i<10;i++){
      stroke(255, 255, 255);
-     strokeWeight(2);
+     strokeWeight(random(2.2,3.5));
      point(random(width),random(height));
  }
+};    
+
+    }
 };
 
 
-  
+// Get the canvas that Processing-js will use
+var canvas = document.getElementById("mycanvas");
+canvas.width = window.innerWidth;
+// Pass the function sketchProc (defined in myCode.js) to Processing's constructor.
+var processingInstance = new Processing(canvas, sketchProc);
 
-
-        }
-    };

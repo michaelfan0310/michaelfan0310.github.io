@@ -1,0 +1,14 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-canvas;
+}
+
+
+#mycanvas {
+    position:absolute;
+    top: 100%;
+    left: 0;
+    z-index: 100;
+    /* background-color:aquamarine(48, 145, 129); */
+}

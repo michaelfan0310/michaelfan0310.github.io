@@ -35,6 +35,8 @@
   <link href="css/clean-blog.min.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
   <link rel='stylesheet' type='text/css' href='css/clock.css'>
+
+  <link rel='stylesheet' type='text/css' href='css/stars.css'>
 </head>
 
 <body>
@@ -273,19 +275,10 @@
 
       </div>
 
-      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button></div> -->
-
-
       </header>
 
   </section>
+  <canvas id="mycanvas" width="1980" height="1080" ></canvas>
   <!-- <section id="app" class="section">
   <h3 class="title is-3 shadow" v-text="message"></h3>
  
@@ -309,7 +302,10 @@
 <script src="js/index.js" charset="utf-8"> </script>
 
 <script type='text/javascript' src='js/clock.js'></script>
+<script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js">
+</script>
 
+<script type='text/javascript' src='js/stars.js'charset="utf-8"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.bundle.min.js"
