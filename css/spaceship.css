@@ -1,0 +1,55 @@
+#spaceShip {
+    position: absolute;
+    margin-top: -35%;
+    
+    z-index: 11;
+        animation: animateShip 60s linear infinite;
+}
+
+@keyframes animateShip {
+    0% { 
+        margin-top: -39.8%;       
+        margin-left: -45%;
+        transform: rotateX(5deg);
+        /* transform: rotateY(15deg); */
+    }
+    25% {   
+        margin-top: -47.5%;     
+        margin-left: -38%;
+        transform: rotateX(15deg);
+        /* transform: rotateY(25deg); */
+    }
+    50% {margin-top: -55.5%; 
+         margin-left: -21%;
+         transform: rotateX(15deg);
+        /* transform: rotateY(35deg); */
+    }
+    66% {
+        margin-top: -51.5%;     
+        margin-left: -4%;
+         transform: rotateX(15deg);
+        /* transform: rotateY(45deg); */
+    }
+    75% {
+        margin-top: -47.5%;     
+        margin-left: 13%;
+         transform: rotateX(15deg);
+        /* transform: rotateY(35deg); */
+    }
+    90% { 
+        margin-top: -43.5%;        
+        margin-left: 30%;
+         transform: rotateX(5deg);
+        /* transform: rotateY(25deg); */
+    }
+
+        100% { 
+        margin-top: -41.5%;        
+        margin-left: 40%;
+         transform: rotateX(5deg);
+        /* transform: rotateY(15deg); */
+    }
+}
+
+
+
