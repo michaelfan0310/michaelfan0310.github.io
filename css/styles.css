@@ -8,7 +8,10 @@ font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
 .navbar {  
   top: 0;
   }
-
+#title-1, #favicon {
+  position: relative;
+  z-index: 5;
+}
 h1{color: rgba(255, 252, 252, 0.527);}
 h2 {
 display: block;
@@ -116,7 +119,7 @@ text-shadow: 2px 2px #206a5d;  }
   margin-bottom: -10px;
   padding-top: 3%;
   padding-bottom: 9%;
-  z-index: 1;
+  z-index: -1;
 }
 
 .p3{
