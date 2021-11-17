@@ -7,11 +7,12 @@
 }
 #spaceShip5 {
     position: absolute;
+    z-index: 2;
     margin-top: -20%;
     margin-right: -45%;
     
-    z-index: 2;
-        animation: orbit 60s linear infinite;
+    
+    animation: orbit 60s linear infinite;
 }
 
 
