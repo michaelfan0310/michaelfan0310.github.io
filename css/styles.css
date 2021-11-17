@@ -181,10 +181,10 @@ margin: 38px auto 38px auto;
 padding:22px; 
 margin-bottom: -2px;}
 
-#video{
-  width:300px;
+#video {
+  width:15%;
   position:absolute;
-  top: 80%;
+  top:  50%;
   z-index:13;
 }
 
