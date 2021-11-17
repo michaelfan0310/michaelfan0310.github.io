@@ -5,36 +5,10 @@ margin: 0 ;
 font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
 }
 
-/* #myCanvas{
-    position: absolute;
-    top:20px;
-    left:0;
-    z-index: 100;
-    opacity: 9;
-} */
-/* section{
-  width: 100vw;
-  height: 100vh;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  scroll-snap-align: start;
-} 
-
-.tBox{
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-  height: 100vh;
-} */
-
 .navbar {  
   top: 0;
   }
-/* .heading {
-  font-size: 100px;
-  font-weight: bold;
-  border-bottom: 5px solid black;
-} */
+
 h1{color: rgba(255, 252, 252, 0.527);}
 h2 {
 display: block;
@@ -156,8 +130,8 @@ text-shadow: 2px 2px #206a5d;  }
 
 #blogIndex {
   position: absolute;
-  bottom: 18%;
-  right: 4%; 
+  top: 258%;
+  right: 5%; 
   background-color: #206a5d; 
 }
 
