@@ -133,9 +133,10 @@ text-shadow: 2px 2px #206a5d;  }
 
 #blogIndex {
   position: absolute;
-  top: 258%;
+  top: 158%;
   right: 5%; 
   background-color: #206a5d; 
+  z-index: 13;
 }
 
 #postIndex { 
@@ -182,9 +183,9 @@ margin-bottom: -2px;}
 
 #video{
   width:300px;
-  position:relative;
-  margin-top: 110%;
-  z-index:11;
+  position:absolute;
+  top: 80%;
+  z-index:13;
 }
 
 #bkpic3{
