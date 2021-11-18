@@ -12,16 +12,32 @@ font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
   position: relative;
   z-index: 5;
 }
-h1{color: rgba(255, 252, 252, 0.527);}
+.overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; 
+  height: 100%; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(58, 57, 57, 0.06);
+  z-index: 2; 
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+h1{color: rgba(219, 214, 214, 0.781);
+text-shadow: 0px 2px #51a08f38;}
 h2 {
 display: block;
 padding-top: 0;
 padding-bottom: 30px;
 border-top: none;
-color: rgba(199, 195, 195, 0.123);
+color: rgba(146, 146, 143, 0.644);
 font-family: Parisienne;
 font-size: 1.5em;
 font-style: italic;
+text-shadow: 0px 2px #01161238;
 }
 #today{
   font-family:  Cambria,cursive;;
