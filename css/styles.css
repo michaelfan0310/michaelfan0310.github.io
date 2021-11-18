@@ -327,9 +327,9 @@ header.masthead .site-heading {
 } */
 #workPlan{
    position: absolute;
-  justify-items: center;
+  align-items: center;
   top: 218%; 
-  left: 48%;
+ 
 }
 #titlepage3{
   font-size: 1.5rem;
@@ -347,7 +347,12 @@ header.masthead .site-heading {
 }
 }
 @media only screen and (max-width: 1024px){
-
+#workPlan{
+   position: absolute;
+   align-items: center;
+  left:48%;
+  top: 221%; 
+}
 
 }
 @media only screen and (max-width: 600px){
