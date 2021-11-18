@@ -4,7 +4,9 @@ color: whitesmoke;
 margin: 0 ;
 font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
 }
-
+html, body {
+    cursor: url("image/shipCursor.cur"), url("image/faviconSmall.png"), crosshair;
+}
 .navbar {  
   top: 0;
   }
@@ -120,14 +122,18 @@ background-color: rgb(15, 73, 29);
 .btn:hover {transform: scale(1.5);}
 
 .navbar-brand:hover,.nav-item:hover {transform: scale(1.8);}
+.cursor {cursor: url(image/shipCursor.cur),pointer;   }
 
-.btn .btn-outline-light{
-  
-                   color:whitesmoke;        
-                   text-decoration: none; }
+.btn .btn-outline-light
+{  
+    color:whitesmoke;        
+    text-decoration: none; 
+    cursor: url(image/shipCursor.cur),pointer;}
                    
 a{color:#feffde;
-text-shadow: 2px 2px #206a5d;  }
+text-shadow: 2px 2px #206a5d;  
+cursor: url(image/shipCursor.cur),pointer;
+}
 
 
 #bkpic2{
@@ -170,9 +176,7 @@ font-family: Mrs+Saint+Delafield}
 h4{font-size:0.6em;
 font-family: Parisienne}
 
-/* h5{
-  
-} */
+
 .todolist, .WorkPlan{
   font-size: 1.3rem;
   text-align: center; 

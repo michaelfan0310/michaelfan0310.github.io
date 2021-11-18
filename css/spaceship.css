@@ -2,12 +2,12 @@
     position: absolute;
     margin-top: -35%;
     
-    z-index: 3;
+    z-index: 4;
         animation: animateShip 60s linear infinite;
 }
 #spaceShip5 {
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     margin-top: -20%;
     margin-right: -45%;
     
@@ -74,7 +74,13 @@
 .orbit .orbit {
     animation-name: suborbit; }
 
-
+.spaceShip6 {
+    position: fixed;
+    z-index: 100;
+    top: 70%;
+    right: 8%;
+    width: 6%
+}
 
 
 @keyframes orbit {
