@@ -5,7 +5,7 @@ margin: 0 ;
 font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
 }
 html, body {
-    cursor: url("image/shipCursor.cur"), url("image/faviconSmall.png"), crosshair;
+    cursor: url('image/shipCursor.cur'), auto;
 }
 .navbar {  
   top: 0;
@@ -364,6 +364,7 @@ header.masthead .site-heading {
   top:1%;
   -webkit-text-stroke: 2pt #2c3f3c71;
 }
+
 .carousel-caption{
   padding-top: 100px;
 }
