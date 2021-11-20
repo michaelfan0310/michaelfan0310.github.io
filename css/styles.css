@@ -318,9 +318,9 @@ header.masthead .site-heading {
 #slideshow{
   margin-top: -20px;;
 }
-.carousel-caption{
+/* .carousel-caption{
   margin-bottom: 400px;
-}
+} */
 #greeting{
   position:relative;
   top:13%;
@@ -359,9 +359,9 @@ header.masthead .site-heading {
   -webkit-text-stroke: 2pt #2c3f3c71;
 }
 
-.carousel-caption{
+/* .carousel-caption{
   padding-top: 100px;
-}
+} */
 }
 @media only screen and (max-width: 1024px){
 #workPlan{
