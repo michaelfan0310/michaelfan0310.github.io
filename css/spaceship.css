@@ -103,48 +103,48 @@
     position: absolute;
     margin-top: -73.5%;
     
-    z-index: 3;
+    z-index: 4;
         animation: animateShip1024 60s linear infinite;
 }
 @keyframes animateShip1024 {
     0% { 
-        margin-top: -73.5.5%;       
+        margin-top: -63.5.5%;       
         margin-left: -65%;
         transform: rotateX(90deg);
         transform: rotateY(85deg);
     }
     25% {   
-        margin-top: -79.5%;     
+        margin-top: -69.5%;     
         margin-left: -38%;
         transform: rotateX(30deg);
         transform: rotateY(25deg);
     }
-    50% {margin-top: -85.5%; 
+    50% {margin-top: -75.5%; 
          margin-left: -21%;
          transform: rotateX(0deg);
         transform: rotateY(0deg);
     }
     66% {
-        margin-top: -82.5%;     
+        margin-top: -72.5%;     
         margin-left: -4%;
          transform: rotateX(3deg);
         transform: rotateY(3deg);
     }
     75% {
-        margin-top: -79.5%;     
+        margin-top: -69.5%;     
         margin-left: 13%;
          transform: rotateX(20deg);
         transform: rotateY(25deg);
     }
     90% { 
-        margin-top: -75.5%;        
+        margin-top: -65.5%;        
         margin-left: 30%;
          transform: rotateX(35deg);
         transform: rotateY(30deg);
     }
 
         100% { 
-        margin-top: -73.5%;        
+        margin-top: -63.5%;        
         margin-left: 45%;
          transform: rotateX(70deg);
         transform: rotateY(60deg);
