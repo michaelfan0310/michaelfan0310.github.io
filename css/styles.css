@@ -259,9 +259,8 @@ footer{
   
 }
 .carousel-item {
-  width: 99vw;
-  
-  height: 102vh;
+  width: 99vw;  
+  height: 100vh;
   padding-bottom: 2%;
   min-height: 350px;
   background: no-repeat center center scroll;
@@ -277,7 +276,7 @@ footer{
 }
 
 .carousel-caption{
-  margin-bottom: 22%;
+  margin-bottom: 5%;
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.8rem;
 }
@@ -296,9 +295,7 @@ header.masthead .post-heading,
 header.masthead .site-heading {
     padding: 200px 0;
 }
-}
 
-@media only screen and (max-width: 1200px){
  .site-heading, .subheading h1{
   padding: 50px 0;
   font-weight: 100;
@@ -359,15 +356,20 @@ header.masthead .site-heading {
   left:48%;
   top: 221%; 
 }
-carousel-item{ 
-  
-    height: 99vh;
+.carousel-item{   
+    width: 99vw;
       min-height: 350px;
+      padding-bottom: 8%;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.carousel-caption{
+  margin-bottom: 65%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.8rem;
 }
 }
 
