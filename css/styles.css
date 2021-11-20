@@ -7,6 +7,11 @@ font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
 html, body {
     cursor: url('image/shipCursor.cur'), auto;
 }
+.container{
+  position: relative;
+  top: 15%;
+  
+}
 .navbar {  
   top: 0;
   }
@@ -295,7 +300,8 @@ header.masthead .post-heading,
 header.masthead .site-heading {
     padding: 200px 0;
 }
-
+}
+@media only screen and (min-width: 1200px){
  .site-heading, .subheading h1{
   padding: 50px 0;
   font-weight: 100;
