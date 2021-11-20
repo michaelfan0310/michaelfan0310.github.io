@@ -7,11 +7,11 @@ font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
 html, body {
     cursor: url('image/shipCursor.cur'), auto;
 }
-.container{
+/* .container{
   position: relative;
-  top: 15%;
+  top: 3%;
   
-}
+} */
 .navbar {  
   top: 0;
  
