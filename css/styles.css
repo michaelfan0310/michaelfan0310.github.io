@@ -214,7 +214,7 @@ margin-bottom: -2px;}
 #video {
   width:15%;
   position:absolute;
-  top:  110%;
+  top:  100%;
   /* right: 2%; */
   z-index:13;
 }
@@ -304,25 +304,25 @@ header.masthead .site-heading {
     padding: 200px 0;
 }
 }
-@media only screen and (min-width: 1200px){
-  /* this is min-width */
+@media only screen and (max-width: 1200px){
+  /* this is man-width */
  .site-heading, .subheading h1{
+   font-size: 0.8rem;
   padding: 50px 0;
   font-weight: 100;
-  font-size: 20%;
-  margin-top: -140px;
-  line-height: 0.2;
- 
+  
+  margin-top: -250px;
+  line-height: 0.2; 
 }
-#favicon{
-  height:40px;
-  width:75px;
+#favicon1{
+  height:60px;
+  width:85px;
 }
 #video{
   width:150px;
   position:relative;
   right:-40%;
-    margin-top: 15%;
+  margin-top: 15%;
 }
 #slideshow{
   margin-top: -20px;;
@@ -360,6 +360,24 @@ header.masthead .site-heading {
 }
 
 @media only screen and (max-width: 1024px){
+  #favicon1{
+    width: 50px;
+    height: 35px;
+  }
+  #title-1{
+    font-size: 3.2rem;
+  }
+  .site-heading, .subheading h1{
+  padding: 30px 0;
+  font-weight: 80;
+  font-size: 20%;
+  margin-top: -160px;
+  line-height: 10%; 
+}
+.main-date{
+  position: relative;
+  margin-top: -36%;
+}
 #workPlan{
    position: absolute;
    align-items: center;
@@ -381,11 +399,15 @@ header.masthead .site-heading {
   -o-background-size: cover;
   background-size: cover;
 }
+#favicon{width: 40px; height: 25px;}
 .carousel-caption{
-  margin-bottom: 65%;
+  margin-bottom: 35%;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 1.8rem;
+  font-size: 2.8rem;
 }
+/* h1,h3{
+  font-size: 0.7rem;
+} */
 }
 
 @media only screen and (max-width: 600px){
