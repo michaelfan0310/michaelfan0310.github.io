@@ -362,6 +362,11 @@ header.masthead .site-heading {
   left:48%;
   top: 221%; 
 }
+.container{
+  position: relative;
+  top: -2%;
+  
+}
 .carousel-item{   
     width: 99vw;
       min-height: 350px;
