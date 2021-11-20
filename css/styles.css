@@ -284,7 +284,7 @@ footer{
 }
 
 .carousel-caption{
-  margin-bottom: 5%;
+  margin-bottom: 18%;
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.8rem;
 }
@@ -297,15 +297,15 @@ footer{
 
 
 
-@media only screen and (min-width: 1300px){
+/* @media only screen and (min-width: 1300px){
 header.masthead .page-heading, 
 header.masthead .post-heading, 
 header.masthead .site-heading {
     padding: 200px 0;
 }
-}
+} */
 @media only screen and (max-width: 1200px){
-  /* this is man-width */
+  /* this is max-width */
  .site-heading, .subheading h1{
    font-size: 0.8rem;
   padding: 50px 0;
@@ -371,7 +371,7 @@ header.masthead .site-heading {
   padding: 30px 0;
   font-weight: 80;
   font-size: 20%;
-  margin-top: -160px;
+  margin-top: -20%;
   line-height: 10%; 
 }
 .main-date{
@@ -400,8 +400,9 @@ header.masthead .site-heading {
   background-size: cover;
 }
 #favicon{width: 40px; height: 25px;}
+
 .carousel-caption{
-  margin-bottom: 35%;
+  margin-bottom: 1%;
   font-family: 'Times New Roman', Times, serif;
   font-size: 2.8rem;
 }
