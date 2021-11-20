@@ -14,7 +14,7 @@ html, body {
 }
 .navbar {  
   top: 0;
-  transform: scale(2.9);
+ 
   }
 #title-1, #favicon, .subheading {
   position: relative;
