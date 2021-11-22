@@ -9,7 +9,7 @@ var sketchProc = function (processingInstance) {
 
         with (processingInstance) {
 
-        size(canvas.width, canvas.height*0.65);
+        size(canvas.width, canvas.height*0.75);
         frameRate(30);
   
  

@@ -27,8 +27,8 @@ var currentTime = setInterval(function () {
 
     if (hours < 12 && hours>=5) {
         h1.textContent = "Good Morning";
-        h1.style.color="#49FF00";
-        h2.style.color="#49FF00";
+        h1.style.color="#B4FE98";
+        h2.style.color="rgba(6, 240, 6, 0.13)";
 
     } else if (hours < 18 && hours >= 12) {
         h1.textContent = "Good Afernoon";
