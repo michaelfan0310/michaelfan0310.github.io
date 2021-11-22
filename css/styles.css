@@ -71,7 +71,7 @@ width: 86%;
 /* height: 60%;  */
 }
 
-.wrapperA{
+.buttonWrapper{
   display:block;
   margin: 10px auto 2px auto;
   width: 40%;
@@ -95,37 +95,13 @@ width: 86%;
 #faviconSmall {
   margin-right: 8px;
 }
-#buttonA:hover,  #buttonA:focus{
+.btn:hover,  .btn:focus{
   background-color: aquamarine;}
-#buttonA:active {
+
+.bth:active {
  color: red;
  }
-#buttonB:hover,  #buttonB:focus{
-background-color: rgb(211, 195, 48);}
 
-#buttonB:active {
-color: rgb(9, 255, 0);
-  }
-
-#buttonC:hover,  #buttonC:focus{
-background-color: rgb(64, 48, 211);}
-#buttonC:active {
-   color: purple;
-     }
-
-#buttonD:hover,  #buttonD:focus{
-background-color: rgb(224, 48, 195);}
-#buttonD:active {
-   color: black;
-    }
-
-
-#buttonF:hover,  #buttonF:focus {
-background-color: rgb(15, 73, 29);
-}
-#buttonF:active {
-   color: rgb(4, 107, 155);
-   } 
 
 .btn:hover {transform: scale(1.5);}
 
@@ -136,7 +112,7 @@ background-color: rgb(15, 73, 29);
 {  
     color:whitesmoke;        
     text-decoration: none; 
-    cursor: url(image/shipCursor.cur),pointer;}
+    cursor: wait,pointer;}
                    
 a{color:#feffde;
 text-shadow: 2px 2px #206a5d;  
@@ -185,12 +161,14 @@ h4{font-size:0.6em;
 font-family: Parisienne}
 
 
-.todolist, .WorkPlan{
+.todolist{
+  position: relative;
   font-size: 1.3rem;
   text-align: center; 
   margin-top: -6px;
   margin-bottom: -10px;
   padding-top: 10px;
+  z-index: 9
 }
 #workPlan{
    position: absolute;
