@@ -145,7 +145,16 @@ cursor: url(image/shipCursor.cur),pointer;
   position: absolute;
   top: 158%;
   right: 5%; 
-  background-color: #206a5d; 
+  text-shadow: #206a5d; 
+  z-index: 13;
+}
+
+.todolist {
+  position: absolute;
+  top: 108%;
+  left: 48%;
+  text-shadow: #206a5d;
+  /* background-color: #206a5d;  */
   z-index: 13;
 }
 
@@ -154,6 +163,7 @@ cursor: url(image/shipCursor.cur),pointer;
   top: 288%;
   right: 5%; 
   background: #206a5d;
+  z-index: 13;
 } 
 
 h3{font-size:0.7em;
@@ -163,16 +173,7 @@ h4{font-size:0.6em;
 font-family: Parisienne}
 
 
-.todolist {
-  /* position: absolute;
-  z-index: 13;
-  font-size: 1.3rem;
-  align-items: center;
-  
-  /* margin-top: -6px; */
-  margin-bottom: -10px;
-  /* padding-top: 10px; */   
-}
+
 
 #workPlan{
    position: absolute;
