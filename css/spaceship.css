@@ -18,18 +18,18 @@
 
 @keyframes animateShip {
     0% { 
-        margin-top: -18.8%;       
+        margin-top: -3.5%;       
         margin-left: -65%;
         transform: rotateX(90deg);
         transform: rotateY(85deg);
     }
     25% {   
-        margin-top: -25.5%;     
+        margin-top: -18.5%;     
         margin-left: -38%;
         transform: rotateX(30deg);
         transform: rotateY(25deg);
     }
-    50% {margin-top: -32.5%; 
+    50% {margin-top: -33.5%; 
          margin-left: -21%;
          transform: rotateX(0deg);
         transform: rotateY(0deg);
