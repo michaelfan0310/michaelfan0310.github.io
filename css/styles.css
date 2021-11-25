@@ -12,10 +12,16 @@ html, body {
   top: 3%;
   
 } */
+.navbar-brand:hover,.nav-item:hover {transform: scale(1.8);}
+/* .cursor {cursor: url(image/shipCursor.cur),pointer;   } */
 .navbar {  
-  top: 0;
- 
+  top: 0; 
+  
   }
+/* .nav-item{
+   font-size: 10rem;
+} */
+
 #title-1, #favicon, .subheading {
   position: relative;
   z-index: 5;
@@ -108,8 +114,7 @@ width: 86%;
 
 .btn:hover {transform: scale(1.5);}
 
-.navbar-brand:hover,.nav-item:hover {transform: scale(1.8);}
-.cursor {cursor: url(image/shipCursor.cur),pointer;   }
+
 
 .btn .btn-outline-light
 {  
@@ -263,6 +268,13 @@ footer{
   margin-bottom: 18%;
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.8rem;
+}
+.carousel-indicators [data-bs-target] {
+  position: relative;
+  width: 9px;
+  height: 9px;
+  border: none;
+  border-radius: 9px; 
 }
 #emojiIndex{
   position: relative;
