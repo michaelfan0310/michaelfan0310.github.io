@@ -39,6 +39,7 @@
   
   <link rel='stylesheet' type='text/css' href='css/clock.css'>
 <link rel='stylesheet' type='text/css' href='css/spaceship.css'>
+<link rel='stylesheet' type='text/css' href='css/weather.css'>
   <link rel='stylesheet' type='text/css' href='css/stars.css'>
  
 </head>
@@ -120,7 +121,8 @@
               <h2 id="today">Today</h2>
             </div>
           </div>
-         
+         <h3 class="localWeather"> Weather:  &nbsp;     <span id="weather1"> &nbsp;</span>&nbsp;
+        <span id="weather2"></span>&deg;</h3>
         </div>
 
       </div>
@@ -151,8 +153,10 @@
   <section id="page2" class="backImg">
 
     <header class="masthead" id="bkpic2" style="background-image: url(image/milky.jpg)">
-
-    
+      <div id="location">
+       <h3>latitude:<span id="latitude"></span>&deg;</h3>
+       <h3>longitude:<span id="longitude"></span>&deg;</h3>
+    </div>
       <div class="wrapperText">
         <p class="p2"> Freely, people encounter each other while hovering online, <br>
           Frankly speaking,
@@ -216,7 +220,7 @@
 
     
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-  
+
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
       aria-current="true" aria-label="Slide 1"></button>
@@ -327,6 +331,8 @@
 </script>
 
 <script type='text/javascript' src='js/stars.js'charset="utf-8"></script>
+
+<script type='text/javascript' src='js/weather.js' charset="utf-8"></script>
 
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>

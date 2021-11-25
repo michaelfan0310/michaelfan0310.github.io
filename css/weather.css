@@ -1,0 +1,13 @@
+#location{
+    position: relative;
+    left: -35%;
+    top:5%;
+    color:aqua;
+    /* text-align:left;  */
+}
+
+.localWeather{
+    font-size: 1.5rem;
+    color: rgba(236, 230, 230, 0.582);
+    text-shadow:2px 2px#206a5d;
+}

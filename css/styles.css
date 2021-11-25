@@ -5,7 +5,7 @@ margin: 0 ;
 font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
 }
 html, body {
-    cursor: url('image/shipCursor.cur'), auto;
+    cursor: pointer, auto;
 }
 /* .container{
   position: relative;
@@ -124,7 +124,7 @@ width: 86%;
                    
 a{color:#feffde;
 text-shadow: 2px 2px #206a5d;  
-cursor: url(image/shipCursor.cur),pointer;
+/* cursor: url(image/shipCursor.cur),pointer; */
 }
 
 
