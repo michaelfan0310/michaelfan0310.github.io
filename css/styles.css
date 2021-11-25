@@ -15,9 +15,11 @@ html, body {
 .navbar-brand:hover,.nav-item:hover {transform: scale(1.8);}
 /* .cursor {cursor: url(image/shipCursor.cur),pointer;   } */
 .navbar {  
-  top: 0; 
-  
-  }
+  top: 0;   
+}
+nav.navbar.navbar-default {
+    border-bottom: none;
+}
 /* .nav-item{
    font-size: 10rem;
 } */
