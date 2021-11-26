@@ -50,4 +50,4 @@ async function getWeather(){
 }
 
 getWeather();
-setInterval(getWeather,20000);
+setInterval(getWeather,30000);
