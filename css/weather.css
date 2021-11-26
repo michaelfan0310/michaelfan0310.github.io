@@ -7,7 +7,7 @@
 }
 
 .localWeather{
-    font-size: 1.9rem;
+    font-size: 2.5rem;
     color: rgba(236, 230, 230, 0.582);
     text-shadow:2px 2px#206a5d;
 }
@@ -15,4 +15,10 @@
 .weather-box{
     position: relative;
     top: 25%
+}
+
+#weatherIcon{
+    padding:-10%;
+    margin: 0%;
+    background-color: rgba(245, 245, 245, 0.041);
 }
