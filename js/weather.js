@@ -5,8 +5,9 @@ if ('geolocation' in navigator){
         const long=position.coords.longitude;
         document.getElementById('latitude').textContent=lat;
         document.getElementById('longitude').textContent=long;
-        console.log(position.coords.latitude);
-        console.log(position.coords.longitude);
+        // console.log(position.coords.latitude);
+        // console.log(position.coords.longitude);
+        
     });
 
 }else{
