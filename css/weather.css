@@ -14,11 +14,13 @@
 
 .weather-box{
     position: relative;
-    top: 25%
+    top: 25%;
+    z-index: 13;
 }
 
 #weatherIcon{
     padding:-10%;
     margin: 0%;
     background-color: rgba(245, 245, 245, 0.041);
+    
 }

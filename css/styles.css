@@ -62,11 +62,11 @@ text-shadow: 0px 2px #01161238;
 }
 #today{
   font-family:  Cambria,cursive;;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
 }
 .main-date{
   position: relative;
-  margin-top: -14%;
+  margin-top: -12%;
 }
 #bkpic{
   height: 100vh;
