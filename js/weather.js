@@ -38,3 +38,4 @@ async function getWeather(){
 }
 
 getWeather();
+setInterval(getWeather,10000);
