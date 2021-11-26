@@ -54,14 +54,14 @@ display: block;
 padding-top: 0;
 padding-bottom: 30px;
 border-top: none;
-color: rgba(146, 146, 143, 0.644);
-font-family: Parisienne;
+color: rgba(230, 230, 221, 0.644);
+font-family: Cambria,cursive;;
 font-size: 1.5em;
 font-style: italic;
-text-shadow: 0px 2px #01161238;
+text-shadow: 2px 2px #01161215;
 }
 #today{
-  font-family:  Cambria,cursive;;
+  font-family:  Cambria,cursive;
   font-size: 2.5rem;
 }
 .main-date{
@@ -139,10 +139,7 @@ text-shadow: 2px 2px #206a5d;
   z-index: -1;
 }
 
-.p2{
-  /* margin-top: 6%; */
-  font-size: 1.3em;
-  font-family: Mrs Saint Delafield}
+
 
 /* .p4{
     font-size: 1.3em;
@@ -159,7 +156,7 @@ text-shadow: 2px 2px #206a5d;
 .todolist {
   position: absolute;
   top: 108%;
-  left: 48%;
+  right: 5%; 
   text-shadow: #206a5d;
  
   z-index: 13;
@@ -174,7 +171,7 @@ text-shadow: 2px 2px #206a5d;
 } 
 
 h3{font-size:0.7em;
-font-family: Mrs+Saint+Delafield}
+font-family: 'Courier New', Courier, monospace }
 
 h4{font-size:0.6em;
 font-family: Parisienne}
@@ -189,17 +186,9 @@ font-family: Parisienne}
   top: 221%; 
 }
 
-p2:hover {transform: scale(1.5);}
 
-.wrapperText {
-/* border:3px groove #B0C4DE; */
-background: #d6d6da1f;
-text-align: center;
-line-height:68px;
-width: 80%;
-margin: 38px auto 38px auto;
-padding:2px; 
-margin-bottom: -2px;}
+
+
 
 #video {
   width:15%;

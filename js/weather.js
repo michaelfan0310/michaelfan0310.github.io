@@ -12,6 +12,8 @@ if ('geolocation' in navigator){
 
 }else{
     console.log('geolocation not available');
+    const lat="NULL";
+    const long="NULL";
 }
 
 
@@ -36,11 +38,11 @@ async function getWeather(){
     // document.body.appendChild(img);
     
 
-    console.log(data.weather[0].main);
-    console.log(data.weather[0].icon);
-    console.log(data.main.temp);
-    console.log(data.main.temp);
-    console.log(data.main.temp_min);
+    // console.log(data.weather[0].main);
+    // console.log(data.weather[0].icon);
+    // console.log(data.main.temp);
+    // console.log(data.main.temp);
+    // console.log(data.main.temp_min);
     // console.log(api_url_icon);
     document.getElementById('weather1').textContent=data.weather[0].main;
     document.getElementById('weather2').textContent=data.main.temp;
