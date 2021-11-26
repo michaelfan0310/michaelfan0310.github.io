@@ -23,4 +23,4 @@ async function getNews(){
 }
 
 getNews();
-setInterval(getNews,50000);
+setInterval(getNews,5000);
