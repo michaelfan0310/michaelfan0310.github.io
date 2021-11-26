@@ -66,7 +66,7 @@ text-shadow: 0px 2px #01161238;
 }
 .main-date{
   position: relative;
-  margin-top: -12%;
+  margin-top: -22%;
 }
 #bkpic{
   height: 100vh;
@@ -293,13 +293,17 @@ footer{
 
 
 
-/* @media only screen and (min-width: 1300px){
+@media only screen and (max-width: 1360px){
 header.masthead .page-heading, 
 header.masthead .post-heading, 
 header.masthead .site-heading {
-    padding: 200px 0;
+    padding: 50px 0;
 }
-} */
+.container{
+  position: relative;
+  top:23%;
+}
+}
 @media only screen and (max-width: 1200px){
   /* this is max-width */
  .site-heading, .subheading h1{
