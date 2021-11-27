@@ -17,6 +17,16 @@
     top: -1%;
     z-index: 13;
 }
+#openweathermap-widget-1{
+position: relative;
+top:10%;
+z-index:3;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 36%;
+
+}
 
 #weatherIcon{
     padding:-10%;
