@@ -1,6 +1,12 @@
+
+const apiKey1='294749526c424fe6bb4feb6f396b4372';
+
 const api_url_news='https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=294749526c424fe6bb4feb6f396b4372';
 
-const api_url_media='http://api.mediastack.com/v1/news?access_key=c4f081a4b0b89eeeedaae32d42f340f6&countries=us,au&sources=en,-fr';
+const apiKey='c4f081a4b0b89eeeedaae32d42f340f6';
+
+const api_url_media='https://api.mediastack.com/v1/news?access_key='+apiKey+'&countries=us,au&sources=en,-fr';
+
 
 
 async function getNews(){
