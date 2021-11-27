@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "primus": "^8.0.5"
+    "primus": "^2.0.4"
   }
 }
