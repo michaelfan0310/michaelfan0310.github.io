@@ -181,7 +181,7 @@ font-family: Parisienne}
   width:15%;
   position:absolute;
   top:  55%;
-  /* right: 2%; */
+  right: 1%;
   z-index:13;
 }
 
@@ -189,7 +189,7 @@ font-family: Parisienne}
   width:15%;
   position:absolute;
   top:  100%;
-  /* right: 2%; */
+  right: 1%;
   z-index:13;
 }
 
