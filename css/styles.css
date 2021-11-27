@@ -177,6 +177,13 @@ font-family: Parisienne}
    right: 48%;
   top: 221%; 
 }
+#video1 {
+  width:15%;
+  position:absolute;
+  top:  55%;
+  /* right: 2%; */
+  z-index:13;
+}
 
 #video {
   width:15%;
