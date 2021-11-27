@@ -24,3 +24,12 @@
     background-color: rgba(245, 245, 245, 0.055);
     
 }
+
+@media only screen and (max-width: 1300px){
+.localWeather{
+    font-size: 1.5rem;
+    color: rgba(236, 230, 230, 0.144);
+    text-shadow:3px 3px#206a5d;
+}
+
+}
