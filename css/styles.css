@@ -287,24 +287,25 @@ header.masthead .page-heading,
 header.masthead .post-heading, 
 header.masthead .site-heading {
     padding: 50px 0;
+    font-size: 0.8rem;
 }
 .container{
   position: relative;
-  top:23%;
+  top:24%;
 }
 }
 @media only screen and (max-width: 1300px){
   /* this is max-width */
- .site-heading, .subheading h1{
-   font-size: 0.8rem;
+.site-heading, .subheading h1{
+   font-size: 0.75rem;
   padding: 50px 0;
   font-weight: 100;  
-  margin-top: -250px;
+  margin-top: -230px;
   line-height: 0.2; 
 }
 .container{
   position: relative;
-  top: 29%;  
+  top: 32%;  
 }
 #favicon1{
   height:60px;
