@@ -7,21 +7,21 @@
 }
 
 .localWeather{
-    font-size: 2.3rem;
-    color: rgba(236, 230, 230, 0.144);
+    font-size: 2rem;
+    color: rgba(236, 230, 230, 0.432);
     text-shadow:3px 3px#206a5d;
 }
 
 .weather-box{
     position: relative;
-    top: 19%;
+    top: -1%;
     z-index: 13;
 }
 
 #weatherIcon{
     padding:-10%;
     margin: 0%;
-    background-color: rgba(245, 245, 245, 0.055);
+    background-color: rgba(245, 245, 245, 0.007);
     
 }
 
