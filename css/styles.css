@@ -140,11 +140,6 @@ text-shadow: 2px 2px #206a5d;
 }
 
 
-
-/* .p4{
-    font-size: 1.3em;
-    font-family: Mrs Saint Delafield} */
-
 #blogIndex {
   position: absolute;
   top: 158%;
@@ -176,19 +171,12 @@ font-family: 'Courier New', Courier, monospace }
 h4{font-size:0.6em;
 font-family: Parisienne}
 
-
-
-
 #workPlan{
    position: absolute;
    align-items: center;
    right: 48%;
   top: 221%; 
 }
-
-
-
-
 
 #video {
   width:15%;
@@ -300,16 +288,21 @@ header.masthead .site-heading {
    font-size: 0.75rem;
   padding: 50px 0;
   font-weight: 100;  
-  margin-top: -230px;
+  margin-top: -240px;
   line-height: 0.2; 
 }
+#title-1{font-size: 3.8rem;}
 .container{
   position: relative;
   top: 32%;  
 }
 #favicon1{
-  height:60px;
-  width:85px;
+  height:50px;
+  width:75px;
+}
+.main-date{
+  position: relative;
+  margin-top: -16%;
 }
 
 #video{
@@ -370,7 +363,7 @@ header.masthead .site-heading {
 }
 .main-date{
   position: relative;
-  margin-top: -36%;
+  margin-top: -20%;
 }
 #workPlan{
    position: absolute;
