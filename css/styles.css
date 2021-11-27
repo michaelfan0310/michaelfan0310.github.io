@@ -293,15 +293,19 @@ header.masthead .site-heading {
   top:23%;
 }
 }
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1300px){
   /* this is max-width */
  .site-heading, .subheading h1{
    font-size: 0.8rem;
   padding: 50px 0;
-  font-weight: 100;
-  
+  font-weight: 100;  
   margin-top: -250px;
   line-height: 0.2; 
+}
+.container{
+  position: relative;
+  top: 29%;
+  
 }
 #favicon1{
   height:60px;
