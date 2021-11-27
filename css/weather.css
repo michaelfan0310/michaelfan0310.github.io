@@ -19,12 +19,12 @@
 }
 #openweathermap-widget-1{
 position: relative;
-margin-top:8%;
+margin-top:13%;
 z-index:3;
 display: block;
 margin-left: auto;
 margin-right: auto;
-width: 30%;
+width: 34%;
 }
 /* #overlay-3{
   background-color: rgba(0, 0, 0, 0.856); 
