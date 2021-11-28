@@ -311,9 +311,15 @@ header.masthead .site-heading {
   position: relative;
   margin-top: -16%;
 }
-
+#video1 {
+  width:250px;
+  position:absolute;
+  top:  55%;
+  right: 1%;
+  z-index:13;
+}
 #video{
-  width:150px;
+  width:250px;
   position:relative;
   right:-40%;
   margin-top: 15%;
@@ -413,13 +419,21 @@ header.masthead .site-heading {
   margin-top: -140px;
   line-height: 0.2; 
 }
+#video1 {
+  width:200px;
+  position:absolute;
+  top:  -26%;
+  right: -17%;
+  z-index:1;
+  opacity: 0.6;
+}
 #video{
-  width:50px;
+  width:200px;
   position:relative;
   justify-content: center;
   margin-top: 50px;
   margin-left: 20px;
-  opacity: 0.3;
+  opacity: 0.6;
 }
 
 .wrapper2{
