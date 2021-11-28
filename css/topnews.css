@@ -2,8 +2,8 @@
   /* margin-top: 6%; */
   font-size: 1.1rem;
   font-family: "Lucida Console", "Courier New", monospace;
-    color: rgba(11, 18, 19);
-    text-shadow:1px 1px rgba(86, 82, 109, 0.418);
+    color: rgba(246, 246, 250, 0.418);
+    text-shadow:2px 2px rgb(11, 18, 19);
     position: relative;
     top:-95%;}
 #newstitle1,#newstitle2,#newstitle3{
@@ -15,7 +15,7 @@ this layer is too low*/
 
 .wrapperText {
 /* border:3px groove #B0C4DE; */
-background: #d6d6da1f;
+background: #202030a4;
 text-align: center;
 line-height:48px;
 width: 65%;
