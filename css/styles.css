@@ -76,9 +76,12 @@ text-shadow: 2px 2px #01161215;
 
 #slideshow img {
 display: block;
-margin: 15px auto 0 auto;
-padding: 4% 3% 2%;
+margin: 0;
+padding: 0;
+margin-left: auto;
+margin-right: auto;
 width: 86%;
+box-shadow: 3px 0 rgba(0, 0, 0, 0.486), 0 5px 20px rgba(0, 0, 0, 0.753);
 /* height: 60%;  */
 }
 
@@ -101,6 +104,7 @@ width: 86%;
   width:135px;
   height:81px; 
   z-index: 9;
+  
 }
 
 #faviconSmall {
@@ -113,22 +117,17 @@ width: 86%;
  color: red;
  }
 
-
 .btn:hover {transform: scale(1.5);}
 
-
-
 .btn .btn-outline-light
-{  
-    color:whitesmoke;        
-    text-decoration: none; 
-    cursor: wait,pointer;}
+{ color:whitesmoke;        
+  text-decoration: none; 
+  cursor: wait,pointer;}
                    
 a{color:#feffde;
 text-shadow: 2px 2px #206a5d;  
 /* cursor: url(image/shipCursor.cur),pointer; */
 }
-
 
 #bkpic2{  
   width: 100vw;
@@ -138,7 +137,6 @@ text-shadow: 2px 2px #206a5d;
   padding-bottom: 9%;
   z-index: -1;
 }
-
 
 #blogIndex {
   position: absolute;
@@ -153,7 +151,6 @@ text-shadow: 2px 2px #206a5d;
   top: 108%;
   right: 5%; 
   text-shadow: #206a5d;
- 
   z-index: 13;
 }
 
@@ -202,7 +199,6 @@ font-family: Parisienne}
   margin-bottom: 0px; 
   z-index: -1;
 }
-
 
 #titlepage3{
   font-family: 'Lobster',cursive,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
