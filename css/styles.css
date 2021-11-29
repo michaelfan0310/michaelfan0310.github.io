@@ -73,6 +73,9 @@ font-size: 1.5em;
 font-style: italic;
 text-shadow: 2px 2px #01161215;
 }
+.masthead{
+  width: 100vw;
+}
 
 #bkpic1{
   height: 102vh;
