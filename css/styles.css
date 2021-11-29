@@ -17,7 +17,10 @@ html, body {
 .navbar { 
    top: 0;   
 }
-
+.nav-item{
+  font-size: 1.5rem;
+  columns: white;
+}
 #title-1, #favicon, .subheading {
   position: relative;
   z-index: 5;
@@ -99,9 +102,9 @@ box-shadow: 5px 0px rgba(26, 5, 5, 0.308), 0 8px 20px rgba(14, 4, 4, 0.233);
   z-index: 12;
    }
 
-#page1{
+/* #page1{
   height: 100vh;
-}
+} */
 
 #favicon1 {
   position: relative;
