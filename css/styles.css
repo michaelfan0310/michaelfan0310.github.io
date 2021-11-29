@@ -3,6 +3,7 @@ text-align: center;
 color: whitesmoke;
 margin: 0 ;
 font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
+
  background: no-repeat center center scroll;
     -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -75,20 +76,21 @@ text-shadow: 2px 2px #01161215;
 
 #bkpic1{
   height: 102vh;
-  /* width: 100vw; */
+  width: 100vw;
   z-index: -1;
 }
 #bkpic2{  
-  /* width: 100vw; */
+  
   height: 106vh;
+  width: 100vw;
   margin-bottom: 0px;
   padding-top: 3%;
   padding-bottom: 0%;
   z-index: -1;
 }
 #bkpic3{  
-  /* width: 100vw; */
   height: 106vh; 
+  width: 100vw;
   margin-top: 0px; 
   padding-top: 0%;
   padding-bottom: 0%;
@@ -209,8 +211,6 @@ font-family: Parisienne}
   z-index:13;
 }
 
-
-
 #titlepage3{
   font-family: 'Lobster',cursive,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 4rem;
@@ -280,7 +280,6 @@ footer{
   /* padding-bottom:1%; */
   background-color: #f5efef;
 }
-
 
 
 @media only screen and (max-width: 1360px){
