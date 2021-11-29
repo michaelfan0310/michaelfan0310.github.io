@@ -3,6 +3,11 @@ text-align: center;
 color: whitesmoke;
 margin: 0 ;
 font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
+ background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
 }
 html, body {
     cursor: pointer, auto;
@@ -55,7 +60,6 @@ font-weight: 900;}
   font-weight:100;
   font-family: "Times New Roman", Times, serif;
 }
-
 
 h2 {
 display: block;
