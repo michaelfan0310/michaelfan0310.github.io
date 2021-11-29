@@ -7,22 +7,16 @@ font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
 html, body {
     cursor: pointer, auto;
 }
-/* .container{
+.container{
   position: relative;
-  top: 3%;
+  top: 13%;
   
-} */
+}
 .navbar-brand:hover,.nav-item:hover {transform: scale(1.8);}
 /* .cursor {cursor: url(image/shipCursor.cur),pointer;   } */
-.navbar {  
-  top: 0;   
+.navbar { 
+   top: 0;   
 }
-nav.navbar.navbar-default {
-    border-bottom: none;
-}
-/* .nav-item{
-   font-size: 10rem;
-} */
 
 #title-1, #favicon, .subheading {
   position: relative;
@@ -42,13 +36,23 @@ nav.navbar.navbar-default {
   /* cursor: url("./image/shipCursor.cur"),auto; */
   /* cursor: url("image/shipCursor.png"); Add a pointer on hover */
 }
- .overlay-2{
+ /* .overlay-2{
     position: fixed;
     background-color: rgba(58, 57, 57, 0.548);
- }
+ } */
 
-h1{color: rgba(219, 214, 214, 0.781);
-text-shadow: 0px 2px #51a08f38;}
+#title-1{color: rgba(219, 214, 214, 0.438);
+text-shadow: 0px 1px #01181446;
+font-size: 5rem;
+font-weight: 900;}
+
+.subheading{
+  font-size: 1.8rem;
+  font-weight:100;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
 h2 {
 display: block;
 padding-top: 0;
@@ -60,14 +64,7 @@ font-size: 1.5em;
 font-style: italic;
 text-shadow: 2px 2px #01161215;
 }
-#today{
-  font-family:  Cambria,cursive;
-  font-size: 2.5rem;
-}
-.main-date{
-  position: relative;
-  margin-top: -25%;
-}
+
 #bkpic{
   height: 100vh;
   width: 100vw;
@@ -76,7 +73,7 @@ text-shadow: 2px 2px #01161215;
 
 #slideshow img {
 display: block;
-margin: 0;
+margin: 10px;
 padding: 0;
 margin-left: auto;
 margin-right: auto;
@@ -84,7 +81,14 @@ width: 86%;
 box-shadow: 5px 0px rgba(26, 5, 5, 0.308), 0 8px 20px rgba(14, 4, 4, 0.233);
 /* height: 60%;  */
 }
-
+#today{
+  font-family:  Cambria,cursive;
+  font-size: 2.5rem;
+}
+.main-date{
+  position: relative;
+  margin-top: 5%;
+}
 .buttonWrapper{
   display:block;
   margin: 10px auto 2px auto;
@@ -132,9 +136,9 @@ text-shadow: 2px 2px #206a5d;
 #bkpic2{  
   width: 100vw;
   height: 106vh;
-  margin-bottom: -10px;
+  margin-bottom: 0px;
   padding-top: 3%;
-  padding-bottom: 9%;
+  padding-bottom: 0%;
   z-index: -1;
 }
 
@@ -193,10 +197,10 @@ font-family: Parisienne}
 #bkpic3{  
   width: 100vw;
   height: 109vh; 
-  margin-top: -10px; 
-  padding-top: 3%;
+  margin-top: 0px; 
+  padding-top: 0%;
   padding-bottom: 0%;
-  margin-bottom: 0px; 
+  margin-bottom: -1%; 
   z-index: -1;
 }
 
@@ -222,12 +226,11 @@ font-family: Parisienne}
 footer{
   margin-top: 0%;  
   padding-top: 2px;
-  padding-right: 3%;
-  color:antiquewhite;
+  padding-right: 0%;
+  color:#1d695b;
   height:5px;
-  background-color: #1d695b;
-  text-align: right; 
-  
+  /* background-color: #1d695b6e; */
+  text-align: right;   
 }
 .carousel-item {
   width: 99vw;  
@@ -282,7 +285,15 @@ header.masthead .site-heading {
 }
 .container{
   position: relative;
-  top:24%;
+  top:4%;
+}
+#today{
+  font-family:  Cambria,cursive;
+  font-size: 2.5rem;
+}
+.main-date{
+  position: relative;
+  margin-top: -8%;
 }
 }
 @media only screen and (max-width: 1300px){
@@ -321,7 +332,8 @@ header.masthead .site-heading {
   margin-top: 15%;
 }
 #slideshow{
-  margin-top: -20px;;
+  position: relative;
+  margin-top: 2%;
 }
 /* .carousel-caption{
   margin-bottom: 400px;
@@ -372,7 +384,7 @@ header.masthead .site-heading {
 }
 .main-date{
   position: relative;
-  margin-top: -20%;
+  margin-top: -10%;
 }
 #workPlan{
    position: absolute;

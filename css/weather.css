@@ -8,13 +8,14 @@
 
 .localWeather{
     font-size: 2rem;
-    color: rgba(236, 230, 230, 0.432);
-    text-shadow:3px 3px#206a5d;
+    font-weight: 600;
+    color: rgba(236, 230, 230, 0.801);
+    text-shadow:3px 3px#044d3f;
 }
 
 .weather-box{
     position: relative;
-    top: -1%;
+    top: -5%;
     z-index: 13;
 }
 #openweathermap-widget-1{
@@ -43,8 +44,8 @@ width: 34%;
 @media only screen and (max-width: 1300px){
 .localWeather{
     font-size: 1.5rem;
-    color: rgba(236, 230, 230, 0.144);
-    text-shadow:3px 3px#206a5d;
+    color: rgba(236, 230, 230, 0.548);
+    text-shadow:3px 3px#064237;
 }
 .weather-box{
     position: relative;
