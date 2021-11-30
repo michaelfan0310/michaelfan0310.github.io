@@ -5,15 +5,16 @@ margin: 0 ;
 font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
 
 }
-html, body {
-  background: url(image/bg1.jpg) no-repeat center center scroll;
-  background: url(image/bg2.jpg) no-repeat center center scroll;
+html {
+  background: url(image/bg1.jpg) no-repeat center center fixed;
+  /* background: url(image/bg2.jpg) no-repeat center center scroll; */
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-    cursor: pointer, auto;
+   
 }
+
 .container{
   position: relative;
   top: 13%;
