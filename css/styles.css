@@ -74,12 +74,12 @@ font-style: italic;
 text-shadow: 2px 2px #01161215;
 }
 .masthead{
-  width: 110vw;
+  width: 100vw;
 }
 
 #bkpic1{
   height: 102vh;
-  width: 105vw;
+  width: 100vw;
   z-index: -1;
 }
 #bkpic2{  
