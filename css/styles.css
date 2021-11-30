@@ -3,33 +3,27 @@ text-align: center;
 color: whitesmoke;
 margin: 0 ;
 font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
-
 }
-html {
-  background: url(image/bg1.jpg) no-repeat center center fixed;
-  /* background: url(image/bg2.jpg) no-repeat center center scroll; */
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-   
+html, body {
+    cursor: pointer, auto;
 }
-
-.container{
+/* .container{
   position: relative;
-  top: 13%;
+  top: 3%;
   
-}
+} */
 .navbar-brand:hover,.nav-item:hover {transform: scale(1.8);}
 /* .cursor {cursor: url(image/shipCursor.cur),pointer;   } */
-.navbar { 
-   top: 0;   
+.navbar {  
+  top: 0;   
 }
-.navbar-brand, .nav-item{
-  font-size: 1.9rem;
-  color: white;
-  text-shadow: darkgreen;
+nav.navbar.navbar-default {
+    border-bottom: none;
 }
+/* .nav-item{
+   font-size: 10rem;
+} */
+
 #title-1, #favicon, .subheading {
   position: relative;
   z-index: 5;
@@ -48,22 +42,13 @@ html {
   /* cursor: url("./image/shipCursor.cur"),auto; */
   /* cursor: url("image/shipCursor.png"); Add a pointer on hover */
 }
- /* .overlay-2{
+ .overlay-2{
     position: fixed;
     background-color: rgba(58, 57, 57, 0.548);
- } */
+ }
 
-#title-1{color: rgba(219, 214, 214, 0.438);
-text-shadow: 0px 1px #01181446;
-font-size: 5rem;
-font-weight: 900;}
-
-.subheading{
-  font-size: 1.8rem;
-  font-weight:100;
-  font-family: "Times New Roman", Times, serif;
-}
-
+h1{color: rgba(219, 214, 214, 0.781);
+text-shadow: 0px 2px #51a08f38;}
 h2 {
 display: block;
 padding-top: 0;
@@ -75,51 +60,28 @@ font-size: 1.5em;
 font-style: italic;
 text-shadow: 2px 2px #01161215;
 }
-.masthead{
-  width: 100vw;
-}
-
-#bkpic1{
-  height: 102vh;
-  width: 100vw;
-  z-index: -1;
-}
-#bkpic2{  
-  
-  height: 106vh;
-  width: 100vw;
-  margin-bottom: 0px;
-  padding-top: 3%;
-  padding-bottom: 0%;
-  z-index: -1;
-}
-#bkpic3{  
-  height: 106vh; 
-  width: 100vw;
-  margin-top: 0px; 
-  padding-top: 0%;
-  padding-bottom: 0%;
-  margin-bottom: -1%; 
-  z-index: -1;
-}
-#slideshow img {
-display: block;
-margin: 10px;
-padding: 0;
-margin-left: auto;
-margin-right: auto;
-width: 86%;
-box-shadow: 5px 0px rgba(26, 5, 5, 0.308), 0 8px 20px rgba(14, 4, 4, 0.233);
-/* height: 60%;  */
-}
 #today{
   font-family:  Cambria,cursive;
   font-size: 2.5rem;
 }
 .main-date{
   position: relative;
-  margin-top: 5%;
+  margin-top: -25%;
 }
+#bkpic{
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+#slideshow img {
+display: block;
+margin: 15px auto 0 auto;
+padding: 4% 3% 2%;
+width: 86%;
+/* height: 60%;  */
+}
+
 .buttonWrapper{
   display:block;
   margin: 10px auto 2px auto;
@@ -130,16 +92,15 @@ box-shadow: 5px 0px rgba(26, 5, 5, 0.308), 0 8px 20px rgba(14, 4, 4, 0.233);
   z-index: 12;
    }
 
-/* #page1{
+#page1{
   height: 100vh;
-} */
+}
 
 #favicon1 {
   position: relative;
   width:135px;
   height:81px; 
   z-index: 9;
-  
 }
 
 #faviconSmall {
@@ -152,17 +113,32 @@ box-shadow: 5px 0px rgba(26, 5, 5, 0.308), 0 8px 20px rgba(14, 4, 4, 0.233);
  color: red;
  }
 
+
 .btn:hover {transform: scale(1.5);}
 
+
+
 .btn .btn-outline-light
-{ color:whitesmoke;        
-  text-decoration: none; 
-  cursor: wait,pointer;}
+{  
+    color:whitesmoke;        
+    text-decoration: none; 
+    cursor: wait,pointer;}
                    
 a{color:#feffde;
 text-shadow: 2px 2px #206a5d;  
 /* cursor: url(image/shipCursor.cur),pointer; */
 }
+
+
+#bkpic2{  
+  width: 100vw;
+  height: 106vh;
+  margin-bottom: -10px;
+  padding-top: 3%;
+  padding-bottom: 9%;
+  z-index: -1;
+}
+
 
 #blogIndex {
   position: absolute;
@@ -177,6 +153,7 @@ text-shadow: 2px 2px #206a5d;
   top: 108%;
   right: 5%; 
   text-shadow: #206a5d;
+ 
   z-index: 13;
 }
 
@@ -216,6 +193,17 @@ font-family: Parisienne}
   z-index:13;
 }
 
+#bkpic3{  
+  width: 100vw;
+  height: 109vh; 
+  margin-top: -10px; 
+  padding-top: 3%;
+  padding-bottom: 0%;
+  margin-bottom: 0px; 
+  z-index: -1;
+}
+
+
 #titlepage3{
   font-family: 'Lobster',cursive,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 4rem;
@@ -238,11 +226,12 @@ font-family: Parisienne}
 footer{
   margin-top: 0%;  
   padding-top: 2px;
-  padding-right: 0%;
-  color:#1d695b;
+  padding-right: 3%;
+  color:antiquewhite;
   height:5px;
-  /* background-color: #1d695b6e; */
-  text-align: right;   
+  background-color: #1d695b;
+  text-align: right; 
+  
 }
 .carousel-item {
   width: 99vw;  
@@ -287,6 +276,7 @@ footer{
 }
 
 
+
 @media only screen and (max-width: 1360px){
 header.masthead .page-heading, 
 header.masthead .post-heading, 
@@ -296,15 +286,7 @@ header.masthead .site-heading {
 }
 .container{
   position: relative;
-  top:4%;
-}
-#today{
-  font-family:  Cambria,cursive;
-  font-size: 2.5rem;
-}
-.main-date{
-  position: relative;
-  margin-top: -8%;
+  top:24%;
 }
 }
 @media only screen and (max-width: 1300px){
@@ -329,22 +311,15 @@ header.masthead .site-heading {
   position: relative;
   margin-top: -16%;
 }
-#video1 {
-  width:250px;
-  position:absolute;
-  top:  55%;
-  right: 1%;
-  z-index:13;
-}
+
 #video{
-  width:250px;
+  width:150px;
   position:relative;
   right:-40%;
   margin-top: 15%;
 }
 #slideshow{
-  position: relative;
-  margin-top: 2%;
+  margin-top: -20px;;
 }
 /* .carousel-caption{
   margin-bottom: 400px;
@@ -395,7 +370,7 @@ header.masthead .site-heading {
 }
 .main-date{
   position: relative;
-  margin-top: -10%;
+  margin-top: -20%;
 }
 #workPlan{
    position: absolute;
@@ -438,21 +413,13 @@ header.masthead .site-heading {
   margin-top: -140px;
   line-height: 0.2; 
 }
-#video1 {
-  width:200px;
-  position:absolute;
-  top:  -30%;
-  right: -17%;
-  z-index:2;
-  opacity: 0.6;
-}
 #video{
-  width:200px;
+  width:50px;
   position:relative;
   justify-content: center;
-  margin-top: 10px;
-  margin-left: 5%;
-  opacity: 0.6;
+  margin-top: 50px;
+  margin-left: 20px;
+  opacity: 0.3;
 }
 
 .wrapper2{
