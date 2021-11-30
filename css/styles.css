@@ -4,14 +4,10 @@ color: whitesmoke;
 margin: 0 ;
 font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
 
- background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;  
 }
 html, body {
-  background: no-repeat center center scroll;
+  background: url(image/post4-bg.jpg) no-repeat center center scroll;
+  background: url(image/image/milky.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
