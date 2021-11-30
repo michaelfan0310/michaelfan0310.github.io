@@ -6,8 +6,8 @@ font-family:"Mrs Saint Delafield" "Italianno" "Parisienne" sans-serif serif;
 
 }
 html, body {
-  background: url(image/post4-bg.jpg) no-repeat center center scroll;
-  background: url(image/image/milky.jpg) no-repeat center center scroll;
+  background: url(image/bg1.jpg) no-repeat center center scroll;
+  background: url(image/bg2.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
