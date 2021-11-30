@@ -12,6 +12,12 @@
     color: rgba(236, 230, 230, 0.801);
     text-shadow:3px 3px#044d3f;
 }
+.cityWeather{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgba(236, 230, 230, 0.801);
+    text-shadow:2px 2px#044d3f;
+}
 
 .weather-box{
     position: relative;
@@ -35,12 +41,12 @@
 #NYsymbol{
     position: relative;
     left:-5%;
-    top: 35px;
+    top: 20px;
 }
 #SHsymbol{
     position: relative;
     left:-5%;
-    top: 36px;
+    top: 22px;
 }
 #openweathermap-widget-1{
 position: relative;
