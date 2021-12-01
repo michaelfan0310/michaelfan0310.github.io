@@ -113,14 +113,10 @@ width: 86%;
  color: red;
  }
 
-
 .btn:hover {transform: scale(1.5);}
 
-
-
 .btn .btn-outline-light
-{  
-    color:whitesmoke;        
+{   color:whitesmoke;        
     text-decoration: none; 
     cursor: wait,pointer;}
                    
