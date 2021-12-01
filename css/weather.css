@@ -90,6 +90,63 @@ width: 34%;
     font-size: 0.5rem;
 }
 }
+@media only screen and (max-width: 1024px){
+.localWeather{
+    font-size: 1.5rem;
+    color: rgba(236, 230, 230, 0.548);
+    text-shadow:3px 3px#064237;
+}
+.weather-box{
+    position: relative;
+    top: -2%;
+    z-index: 13;
+}
+
+.weather-box2{
+    position: relative;
+    top: -3%;
+    right:70%;
+    z-index: 13;
+    font-size: 0.6rem;
+}
+.weather-box3{
+    position: relative;
+    top: -13%;
+    left:70%;
+    z-index: 13;
+    font-size: 0.6rem;
+}
+}
+
+@media only screen and (max-width: 800px){
+.localWeather{
+    font-size: 1.3rem;
+    color: rgba(236, 230, 230, 0.548);
+    text-shadow:2px 2px#064237;
+}
+.weather-box{
+    position: relative;
+    top: -2%;
+    z-index: 3;
+}
+
+.weather-box2{
+    position: relative;
+    top: -180px;
+    margin-left:120px;
+    z-index: 13;
+    }
+.weather-box3{
+    position: relative;
+    top: -330px;
+    margin-right:130px;
+    z-index: 13;
+  }
+  #NYsymbol, #SHsymbol{width:20%;}
+.cityWeather{
+    font-size: 0.6rem;
+}
+}
 @media only screen and (max-width: 600px){
 
 #openweathermap-widget-1{
@@ -108,15 +165,19 @@ width: 12%;
 }
 .weather-box2{
     position: relative;
-    top: -23%;    
+    top: -18%;    
     margin-left:290px;
-    z-index: 13;   
+    z-index: 13;  
+    font-size: 0.6rem; 
 }
 .weather-box3{
     position: relative;
-    top: -45%;
-    
+    top: -35%;    
     margin-right:450px;
     z-index: 13;
-} 
+    font-size: 0.6rem;
+}
+    #NYsymbol{width:60%;}
+ #SHsymbol{width:130%;
+          }
 }
