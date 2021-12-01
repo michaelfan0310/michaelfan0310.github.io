@@ -11,29 +11,30 @@ if ('geolocation' in navigator){
         const long=position.coords.longitude;
         document.getElementById('latitude').textContent=lat;
         document.getElementById('longitude').textContent=long;
-        console.log(position.coords.latitude);
-        console.log(position.coords.longitude);
+        console.log(lat);
+        console.log(long);
         
     });
 
 }else{
     console.log('geolocation not available');
-     lat="NULL";
-     long="NULL";
+      lat=43.043989;
+      long=-81.2628853;
 }
 
 // <!-- '+lat+'-->
     const api_url='https://api.openweathermap.org/data/2.5/weather?q=london,Ontaria&appid='+apiKEY+'&units=metric';
 
-    const api_url_geo='https://api.openweathermap.org/data/2.5/weather?lat=43.043989&lon=-81.2628853&appid='+apiKEY+'&units=metric';
-    const response= await fetch(api_url_geo);
+    // const api_url_geo='https://api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+long+'&appid='+apiKEY+'&units=metric';
+    const response= await fetch(api_url);
     const data= await response.json();
     const dataIcon= data.weather[0].icon;
     const imageURL= 'http://openweathermap.org/img/wn/'+dataIcon+'@2x.png';
 
-    const img=document.querySelectorAll('img');
+    const img=document.querySelector('#weatherIcon');
     
-    img[15].src=imageURL;
+    img.src=imageURL;
+    console.log(response);
     // img.style.width="2px";
     // document.body.appendChild(img);
     
