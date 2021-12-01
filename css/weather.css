@@ -48,8 +48,8 @@
 }
 #openweathermap-widget-1{
 position: relative;
-margin-top:13%;
-z-index:3;
+margin-top:5%;
+z-index:0;
 display: block;
 margin-left: auto;
 margin-right: auto;
