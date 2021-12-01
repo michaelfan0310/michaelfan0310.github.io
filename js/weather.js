@@ -12,8 +12,7 @@ if ('geolocation' in navigator){
         document.getElementById('latitude').textContent=lat;
         document.getElementById('longitude').textContent=long;
         console.log(lat);
-        console.log(long);
-        
+        console.log(long);        
     });
 
 }else{
@@ -36,8 +35,7 @@ if ('geolocation' in navigator){
     img.src=imageURL;
     console.log(response);
     // img.style.width="2px";
-    // document.body.appendChild(img);
-    
+    // document.body.appendChild(img);   
 
     // console.log(data.weather[0].main);
     // console.log(data.weather[0].icon);
@@ -46,8 +44,7 @@ if ('geolocation' in navigator){
     // console.log(data.main.temp_min);
     // console.log(api_url_icon);
     document.getElementById('weather1').textContent=data.weather[0].main;
-    document.getElementById('weather2').textContent=data.main.temp;
-    
+    document.getElementById('weather2').textContent=data.main.temp;    
 }
 
 getWeather();
