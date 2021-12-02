@@ -9,10 +9,10 @@
     position: absolute;
     z-index: 3;
     margin-top: -20%;
-    margin-right: -45%;
-    
+    margin-right: -45%;   
     
     animation: orbit 60s linear infinite;
+    
 }
 
 
