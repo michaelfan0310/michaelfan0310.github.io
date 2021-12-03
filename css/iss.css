@@ -1,15 +1,30 @@
+#outer-orbit{
+    width: 194px;
+  height: 113px;
+}
 
+#IssPosition1, #IssPosition2{
+ 
+  position: relative;
+  margin-top: 0;
+  padding-top: 0;
+    top: -105%;
+    left: 2%;
+    font-size: 0.8rem;
+    text-shadow: 1px 1px #0116125d;
+    transform: rotate(180deg);
+}
 
-#outer-orbit {
+#Iss-box {
+  display: block;
    position: absolute;
     top: 235%;
     left: 9%;
-    width: 194px;
-  height: 194px;
+   
   border-radius: 50%;
-    z-index: 8;
+    z-index: 3;
   
-  animation: orbit2 105s linear infinite;
+  animation: orbit2 95s linear infinite;
 }
 
 

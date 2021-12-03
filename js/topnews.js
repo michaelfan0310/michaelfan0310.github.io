@@ -18,15 +18,15 @@ async function getNews(){
     // console.log(media_data.data[0].title);
     // console.log(media_data.data[0].description);
      console.log(data.articles[0].title);
-    console.log(data.articles[0].description);     
+    // console.log(data.articles[0].description);     
 
-    console.log(data.articles[1].title);
-    console.log(data.articles[1].description);
-    console.log(data.articles[2].title);
-    console.log(data.articles[2].description);
+    // console.log(data.articles[1].title);
+    // console.log(data.articles[1].description);
+    // console.log(data.articles[2].title);
+    // console.log(data.articles[2].description);
     
-    document.getElementById('newstitle1').textContent=data.articles[0].title;
-    document.getElementById('newstext1').textContent=data.articles[0].description;
+    // document.getElementById('newstitle1').textContent=data.articles[0].title;
+    // document.getElementById('newstext1').textContent=data.articles[0].description;
 
     // document.getElementById('newstitle2').textContent=data.articles[1].title;
     // document.getElementById('newstext2').textContent=data.articles[1].description;
@@ -34,10 +34,9 @@ async function getNews(){
     // document.getElementById('newstitle3').textContent=data.articles[2].title;
     // document.getElementById('newstext3').textContent=data.articles[2].description;
 
-    // document.getElementById('newstitle3').textContent=media_data.data[2].title;
-    // document.getElementById('newstext3').textContent=media_data.data[2].description;
+   
     
 }
 
-getNews();
-setInterval(getNews,50000);
+// getNews();
+setInterval(getNews,100000000000);

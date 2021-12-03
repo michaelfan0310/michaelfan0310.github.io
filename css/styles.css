@@ -71,6 +71,7 @@ text-shadow: 2px 2px #01161215;
 .main-date{
   position: relative;
   margin-top: -25%;
+  z-index: 9;
 }
 #bkpic{
   height: 100vh;
