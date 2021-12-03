@@ -44,11 +44,15 @@ if ('geolocation' in navigator){
     // console.log(data.main.temp_min);
     // console.log(api_url_icon);
     document.getElementById('weather1').textContent=data.weather[0].main;
-    document.getElementById('weather2').textContent=data.main.temp;    
+    document.getElementById('weather2').textContent=data.main.temp;   
+    // const img2=document.querySelector('#sun-position');
+    // img2.src='image/sun.gif';
 }
 
 getWeather();
 setInterval(getWeather,30000);
+
+
 
 window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = []; window.myWidgetParam.push({ id: 1, cityid: '6058560', appid: '6576f538d91956037524f524f1a31cb8', units: 'metric', containerid: 'openweathermap-widget-1', }); (function () { var script = document.createElement('script'); script.async = true; script.charset = "utf-8"; script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js"; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s); })();
 

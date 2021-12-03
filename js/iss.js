@@ -15,3 +15,6 @@ async function getIss(){
 
 getIss();
 setInterval(getIss,3000);
+
+const img2=document.querySelector('#sun-position');
+    img2.src='image/sun.gif';
