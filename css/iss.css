@@ -1,29 +1,24 @@
-#iss{
-   
-    
-}
+
 
 #outer-orbit {
    position: absolute;
-    top: 75%;
-    left: 2%;
-    width: 294px;
-  height: 294px;
-  border-radius: 90%;
+    top: 235%;
+    left: 9%;
+    width: 194px;
+  height: 194px;
+  border-radius: 50%;
     z-index: 8;
-  -webkit-animation: spin-right 20s linear infinite;
-  animation: spin-right 20s linear infinite;
+  
+  animation: orbit2 45s linear infinite;
 }
 
 
-@-webkit-keyframes spin-right {
-  50% {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
+@keyframes orbit2 {
+  0% {
+      transform: rotateZ(160deg) translatey(1390px); }
+  
+    100% {
+      transform: rotateZ(240deg) translatey(2290px); } }
+
 
  

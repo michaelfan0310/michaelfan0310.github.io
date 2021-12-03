@@ -64,15 +64,14 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    /* border: 1px solid rgba(255, 255, 255, 0.2); */
+    border: 1px solid rgba(255, 255, 255, 0);
     border-radius: 50%;
     transform-style: preserve-3d;
     animation-name: orbit;
     animation-iteration-count: infinite;
     animation-timing-function: linear; }
 
-.orbit .orbit {
-    animation-name: suborbit; }
+
 
 .spaceShip6 {
     position: fixed;
@@ -101,17 +100,12 @@
 
 @keyframes orbit {
     0% {
-      transform: rotateZ(0deg); }
+      transform: rotateZ(0deg) translatey(0px); }
   
     100% {
-      transform: rotateZ(-360deg); } }
+      transform: rotateZ(-360deg) translatey(0px); } }
 
-@keyframes suborbit {
-    0% {
-      transform: rotateX(90deg) rotateZ(0deg); }
-  
-    100% {
-      transform: rotateX(90deg) rotateZ(-360deg); } }  
+ 
 
 
 @media only screen and (max-width: 1024px){
