@@ -41,7 +41,7 @@ const apiKEY='6576f538d91956037524f524f1a31cb8';
 }
 
 getWeather_2city();
-setInterval(getWeather_2city,30000);
+setInterval(getWeather_2city,180000);
 
 
 

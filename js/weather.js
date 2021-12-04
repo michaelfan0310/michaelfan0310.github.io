@@ -50,7 +50,7 @@ if ('geolocation' in navigator){
 }
 
 getWeather();
-setInterval(getWeather,30000);
+setInterval(getWeather,90000);
 
 
 
