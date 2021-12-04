@@ -18,3 +18,5 @@ setInterval(getIss,3000);
 
 const img2=document.querySelector('#sun-position');
     img2.src='image/sun.gif';
+
+    // https://v2.jokeapi.dev/joke/Programming,Christmas?contains=debugging&amount=4
