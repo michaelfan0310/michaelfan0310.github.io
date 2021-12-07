@@ -40,7 +40,7 @@ var currentTime = setInterval(function () {
         h1.textContent = "Good Evening";
         q.textContent =  "Why are you still working?";
         h1.style.color="#2B4F60";
-        h2.style.color="#2B4F60";
+        h2.style.color="rgb(43, 79, 96,0.7)";
         
         $("#bkpic3").css("background-image", "url(image/postEvening2-bg.jpg)");
        $("#myClass").addClass("overlay");
@@ -49,7 +49,7 @@ var currentTime = setInterval(function () {
         h1.textContent = "Good Night";
         q.textContent =  "Why are you still working??DreamMakingTime";
         h1.style.color="#3D2C8D";
-        h2.style.color="#3D2C8D";
+        h2.style.color="rgb(61, 44, 141,0.6)";
         $("#bkpic3").css("background-image", "url(image/postEvening-bg.jpg)");
     }
 }, 1000);
