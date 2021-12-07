@@ -40,7 +40,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgba(6, 240, 6, 0);
+    color: rgba(6, 240, 6, 0.021);
 }
 
 }
