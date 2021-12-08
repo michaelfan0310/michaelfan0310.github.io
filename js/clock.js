@@ -32,8 +32,8 @@ var currentTime = setInterval(function () {
 
     } else if (hours < 18 && hours >= 12) {
         h1.textContent = "Good Afernoon";
-        // h1.style.color="#FF0000";
-        // h2.style.color="#FF0000";
+        h1.style.color="#e730238c";
+        h2.style.color="rgba(216, 91, 53, 0.493)";
         $("#bkpic3").css("background-image", "url(image/postAfternoon2-bg.jpg)");
 
     } else if (hours < 23 && hours >= 18){

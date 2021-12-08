@@ -20,10 +20,10 @@ async function getNews(){
      console.log(data.articles[0].title);
     console.log(data.articles[0].description);     
 
-    console.log(data.articles[1].title);
-    console.log(data.articles[1].description);
-    console.log(data.articles[2].title);
-    console.log(data.articles[2].description);
+    // console.log(data.articles[1].title);
+    // console.log(data.articles[1].description);
+    // console.log(data.articles[2].title);
+    // console.log(data.articles[2].description);
     
     // document.getElementById('newstitle1').textContent=data.articles[0].title;
     // document.getElementById('newstext1').textContent=data.articles[0].description;
