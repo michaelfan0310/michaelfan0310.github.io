@@ -41,6 +41,7 @@
   
   <link rel='stylesheet' type='text/css' href='css/clock.css'>
 <link rel='stylesheet' type='text/css' href='css/spaceship.css'>
+<link rel='stylesheet' type='text/css' href='css/pomodoro.css'>
 <link rel='stylesheet' type='text/css' href='css/weather.css'>
 <link rel='stylesheet' type='text/css' href='css/topnews.css'>
   <link rel='stylesheet' type='text/css' href='css/stars.css'>
@@ -131,9 +132,9 @@
                   &nbsp;</span>&nbsp;&nbsp;
                 <span id="weather2"></span>&#8451;
               </h3>
-            </div>
-
-            <div class="weather-box2">
+            </div>   
+                  
+        <div class="weather-box2">
               <img id="NYsymbol" src="image/NY.png" alt="NYsymbol" width="200px" />
                 <h6 class="cityWeather">
                 <img id="weatherIcon2" src="" alt="" width="40"  /> 
@@ -151,8 +152,8 @@
                 </span>
                 <span id="weather6"></span>&#8451;
               </h6>
+            </div>  
             </div>
-          </div>         
           
         </div>
 
@@ -166,10 +167,10 @@
 <img src="image/iss.png" alt="iss" width="15%" id="outer-orbit" class="orbitIss" />
 
 </div>
-
-
-
     </header>
+
+   
+   
 
     <div class="buttonWrapper">
       <button type="button" class="btn btn-outline-light"><a
@@ -199,7 +200,7 @@
        <h3>longitude:<span id="longitude"></span>&deg;</h3>
     </div>
    <div>
-    <h1 id="topnews">T<img id="sun-position" src="" alt="icon" width="3%" /></img>pnews Today </h1><p>(TechCrunch)</p></div>
+    <h1 id="topnews">T<img id="sun-position" src="" alt="icon" width="3%" ></img>pnews Today </h1><p>(TechCrunch)</p></div>
       <div class="wrapperText">
         
         <h2 id="newstitle1">Better.com CEO Vishal Garg apologizes to current employees for 'blundering' of mass layoffs; SPAC delayed</h2>
@@ -246,6 +247,7 @@
       </div>
 
 
+
       <h2 id="titlepage3">
         A person who never made a mistake never tried anything new.
       </h2>
@@ -267,6 +269,7 @@
     <button type="button" id="postIndex" class="btn  btn-outline-success" data-mdb-ripple-color="dark" role="button"><a
         href="https://michaelfan0310.github.io/keeper-app/">My-App</a>
     </button>
+
   </section>
 
 
@@ -348,6 +351,25 @@
     <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span> -->
   </button>
+<div class="panel panel-default">
+  <div class="panel-body text-center">
+    <div id="clock2" class="inactive">
+      45:00
+    </div>
+    <!-- <div id=restarbuttons>
+      <button id="restartButton" class="btn btn-warning" type="submit" onclick="resetTimer()">
+        <span class="glyphicon glyphicon-step-backward" aria-hidden="true"></span> Reset
+      </button>
+      <button id="startButton" class="btn btn-primary btn-small" type="submit" onclick="startTimer()">
+        <span class="glyphicon glyphicon-play" aria-hidden="true"></span> Start
+      </button>
+      <button id="stopButton" class="btn btn-danger btn-small" type="submit" onclick="pauseTimer()">
+        <span class="glyphicon glyphicon-stop" aria-hidden="true"></span> Pause
+      </button>
+    </div> -->
+  </div>
+</div>
+
 </div>
 
 </section>
@@ -403,6 +425,7 @@
 <script type='text/javascript' src='js/weather2.js' charset="utf-8"></script>
 <script type='text/javascript' src='js/topnews.js' charset="utf-8"></script>
 <script type='text/javascript' src='js/iss.js' charset="utf-8"></script>
+<script type='text/javascript' src='js/pomodoro.js' charset="utf-8"></script>
 
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
@@ -410,7 +433,7 @@
   integrity="sha512-PqRelaJGXVuQ81N6wjUrRQelCDR7z8RvKGiR9SbSxKHPIt15eJDmIVv9EJgwq0XvgylszsjzvQ0+VyI2WtIshQ=="
   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
 
 
