@@ -22,7 +22,7 @@ if ('geolocation' in navigator){
 }
 
 // <!-- '+lat+'-->
-    const api_url='https://api.openweathermap.org/data/2.5/weather?q=Woodstock,Ontario&appid=6576f538d91956037524f524f1a31cb8&units=metric';
+    const api_url='https://api.openweathermap.org/data/2.5/weather?q=Woodstock,Ontario&appid='+apiKEY+'&units=metric';
 
     // const api_url_geo='https://api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+long+'&appid='+apiKEY+'&units=metric';
     const response= await fetch(api_url);
