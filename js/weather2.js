@@ -1,10 +1,10 @@
 async function getWeather_2city(){
 
-const apiKEY='cd9180cfab0e6b06a7207e6677586ae5';
+const apiKEY='6576f538d91956037524f524f1a31cb8';
 
 
 // <!-- '+lat+'-->
-    const api_url_ny='https://api.openweathermap.org/data/2.5/weather?q=NY,usa&appid='+apiKEY+'&units=metric';
+    const api_url_ny='https://api.openweathermap.org/data/2.5/weather?q=New%20York,%20US&appid='+apiKEY+'&units=metric';
 
     
     const response= await fetch(api_url_ny);
