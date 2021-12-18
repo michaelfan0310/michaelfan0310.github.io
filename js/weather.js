@@ -1,6 +1,6 @@
 async function getWeather(){
 
-const apiKEY='6576f538d91956037524f524f1a31cb8';
+const apiKEY='cd9180cfab0e6b06a7207e6677586ae5';
 
 
 
