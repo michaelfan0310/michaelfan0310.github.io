@@ -2,7 +2,7 @@ async function getWeather(){
 
 const apiKEY='cd9180cfab0e6b06a7207e6677586ae5';
 
-
+// https://api.openweathermap.org/data/2.5/weather?q=London,%20CA&appid=cd9180cfab0e6b06a7207e6677586ae5&units=metric
 
 if ('geolocation' in navigator){
     console.log('geolocation available');
@@ -21,8 +21,9 @@ if ('geolocation' in navigator){
       long=-81.2628853;
 }
 
-// <!-- '+lat+'-->
-    const api_url='https://api.openweathermap.org/data/2.5/weather?q=Woodstock,Ontario&appid='+apiKEY+'&units=metric';
+const api_url='https://api.openweathermap.org/data/2.5/weather?q=London,%20CA&appid='+apiKEY+'&units=metric';
+
+    // const api_url='https://api.openweathermap.org/data/2.5/weather?q=Woodstock,Ontario&appid='+apiKEY+'&units=metric';
 
     // const api_url_geo='https://api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+long+'&appid='+apiKEY+'&units=metric';
     const response= await fetch(api_url);
