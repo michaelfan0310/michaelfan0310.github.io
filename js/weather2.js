@@ -1,10 +1,11 @@
 async function getWeather_2city(){
 
-const apiKEY2='6576f538d91956037524f524f1a31cb8';
+const apiKEY='6576f538d91956037524f524f1a31cb8';
+// const apiKEY3='72065f60b6f98a54cfbebcef3058bf85';
 
 
 // <!-- '+lat+'-->
-    const api_url_ny='https://api.openweathermap.org/data/2.5/weather?q=New%20York,%20US&appid='+apiKEY2+'&units=metric';
+    const api_url_ny='https://api.openweathermap.org/data/2.5/weather?q=New%20York,%20US&appid='+apiKEY+'&units=metric';
 
     
     const response= await fetch(api_url_ny);
@@ -17,7 +18,7 @@ const apiKEY2='6576f538d91956037524f524f1a31cb8';
     img.src=imageURL;
     // img.style.width="2px";
     // document.body.appendChild(img);
-    const api_url_SH='https://api.openweathermap.org/data/2.5/weather?q=ShangHai,china&appid='+apiKEY2+'&units=metric';
+    const api_url_SH='https://api.openweathermap.org/data/2.5/weather?q=ShangHai,china&appid='+apiKEY+'&units=metric';
     const reponse2 = await fetch(api_url_SH);
     const data2 = await reponse2.json();
     const data2Icon= data2.weather[0].icon;
