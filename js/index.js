@@ -38,8 +38,14 @@ weekday[6] = "Saturday";
 var TODAY=document.getElementById('today');
 TODAY.textContent=weekday[d.getDay()];
 
-const date = d.getDate();
-document.getElementById("todate").innerHTML=date;
+var month = document.getElementById("month");
+month.textContent=new Date().toLocaleString('en-US', {month: 'short'});
+
+var year = document.getElementById("thisyear");
+year.textContent=d.getFullYear();
+
+var day = document.getElementById("day");
+day.textContent=d.getDate();
 
 var CURRENTYEAR=document.getElementById('year');
 CURRENTYEAR.textContent= new Date().getFullYear()+"         Michael Fan";
