@@ -1,16 +1,15 @@
 #sun-positon{
   position:relative;
   z-index: -1;
-  bottom: 50px;
-  
+  bottom: 50px;  
 }
+
 #outer-orbit{
     width: 194px;
   height: 113px;
 }
 
-#IssPosition1, #IssPosition2{
- 
+#IssPosition1, #IssPosition2{ 
   position: relative;
   margin-top: 0 0;
   padding-top: 0 0;

@@ -23,9 +23,7 @@ if ('geolocation' in navigator){
 
 const api_url='https://api.openweathermap.org/data/2.5/weather?q=London,%20CA&appid='+apiKEY+'&units=metric';
 
-    // const api_url='https://api.openweathermap.org/data/2.5/weather?q=Woodstock,Ontario&appid='+apiKEY+'&units=metric';
-
-    // const api_url_geo='https://api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+long+'&appid='+apiKEY+'&units=metric';
+   
     const response= await fetch(api_url);
     const data= await response.json();
     const dataIcon= data.weather[0].icon;
@@ -34,20 +32,10 @@ const api_url='https://api.openweathermap.org/data/2.5/weather?q=London,%20CA&ap
     const img=document.querySelector('#weatherIcon');
     
     img.src=imageURL;
-    // console.log(response);
-    // img.style.width="2px";
-    // document.body.appendChild(img);   
-
-    // console.log(data.weather[0].main);
-    // console.log(data.weather[0].icon);
-    // console.log(data.main.temp);
-    // console.log(data.main.temp);
-    // console.log(data.main.temp_min);
-    // console.log(api_url_icon);
+    
     document.getElementById('weather1').textContent=data.weather[0].main;
     document.getElementById('weather2').textContent=data.main.temp;   
-    // const img2=document.querySelector('#sun-position');
-    // img2.src='image/sun.gif';
+  
 }
 
 getWeather();
