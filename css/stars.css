@@ -7,7 +7,7 @@
 
 #mycanvas {
     position:absolute;
-    top: 105%;
+    top: 106%;
     left: 0;
     z-index: 9;
     /* background-color:aquamarine(48, 145, 129); */
@@ -15,7 +15,7 @@
 @media only screen and (max-width: 1024px){
 #mycanvas {
     position:absolute;
-    top: 110%;
+    top: 108%;
     left: 0;
     z-index: 9;
    
