@@ -46,6 +46,7 @@
 <link rel='stylesheet' type='text/css' href='css/topnews.css'>
   <link rel='stylesheet' type='text/css' href='css/stars.css'>
   <link rel='stylesheet' type='text/css' href='css/iss.css'>
+  <link rel='stylesheet' type='text/css' href='css/Card.css'>
  
 </head>
 
@@ -125,7 +126,7 @@
           <div>
             <div id="expense-date">
               <div id="month" className="expense-date__month">month</div>
-              <div id="day" className="expense-date__day">day</div>
+              <div class="day" className="expense-date__day">day</div>
               
               <div id="thisyear" className="expense-date__year">year</div>
             </div>
@@ -186,6 +187,8 @@
 
       <button type="button" class="btn btn-outline-light"><a href="https://michaelfan0310.github.io/special/aquarium"
           id="buttonF"> special</a></button>
+      <button type="button" class="btn btn-outline-light"><a href="https://michaelfan0310.github.io/library/"
+            id="buttonE">Library</a></button>
       <button type="button" class="btn btn-outline-light"><a href="https://michaelfan0310.github.io/news/pandemic.html"
           id="buttonB"> News</a></button>
       <button type="button" class="btn btn-outline-light"><a
@@ -193,8 +196,7 @@
       <button type="button" class="btn btn-outline-light"><a href="https://michaelfan0310.github.io/travel/videoWeb.html"
           id="buttonD"> Travel</a></button>
 
-      <button type="button" class="btn btn-outline-light"><a href="https://michaelfan0310.github.io/library/"
-            id="buttonE">Library</a></button>
+      
       <button type="button" class="btn btn-outline-light"><a href="https://michaelfan0310.github.io/game2/simon"
           id="buttonE"> Game</a></button>
      
@@ -259,9 +261,19 @@
       </h2>
       <h3 id="titlepage31">Albert Einstein</h3>
 
-      <div id="overlay-3">
-      <div id="openweathermap-widget-1" width="20%"></div>
-      </div>  
+
+     
+        <div class="card">
+          <div class="content">
+            <h2 class="day">day</h2>
+            <h3>Today's Quote</h3>
+            <p id="quoteText">quotes</p>
+        <a href="https://www.michaelfan0310.ml/react-quote/">Read More</a>
+          </div>
+        </div>
+          
+  
+  
       
 
       
@@ -422,6 +434,7 @@
 <script type='text/javascript' src='js/topnews.js' charset="utf-8"></script>
 <script type='text/javascript' src='js/joke.js' charset="utf-8"></script>
 <script type='text/javascript' src='js/iss.js' charset="utf-8"></script>
+<script type='text/javascript' src='js/quotes.js' charset="utf-8"></script>
 <script type='text/javascript' src='js/pomodoro.js' charset="utf-8"></script>
 
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="

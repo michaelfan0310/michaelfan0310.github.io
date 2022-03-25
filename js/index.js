@@ -44,9 +44,9 @@ month.textContent=new Date().toLocaleString('en-US', {month: 'short'});
 var year = document.getElementById("thisyear");
 year.textContent=d.getFullYear();
 
-var day = document.getElementById("day");
-day.textContent=d.getDate();
-
+var day = document.getElementsByClassName('day');
+day[0].innerHTML=d.getDate();
+day[1].innerHTML=d.getDate();
 var CURRENTYEAR=document.getElementById('year');
 CURRENTYEAR.textContent= new Date().getFullYear()+"         Michael Fan";
 
