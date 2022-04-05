@@ -13,4 +13,4 @@ async function getQuote(){
 }
 
 getQuote();
-setInterval(getQuote,600000);
+setInterval(getQuote,200000);
