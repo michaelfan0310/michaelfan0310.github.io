@@ -202,7 +202,7 @@ font-family: Parisienne}
 #workPlan{
    position: absolute;
    align-items: center;
-   right: 48%;
+   right: 45%;
   top: 221%; 
 }
 #video1 {
@@ -397,13 +397,14 @@ header.masthead .site-heading {
   line-height: 10%; 
 }
 .main-date{
-  position: relative;
+  position: relative;  
   margin-top: -20%;
 }
 #workPlan{
    position: absolute;
+   justify-content: center;
    align-items: center;
-  left:48%;
+ 
   top: 221%; 
 }
 .container{
