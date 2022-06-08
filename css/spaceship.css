@@ -14,7 +14,21 @@
     animation: orbit 60s linear infinite;
     
 }
-
+#camShip {
+   position: sbsolute;
+   z-index: 9;
+   opacity: 0.5;
+   margin-top: -113%;
+   margin-right: -62%;
+   animation: showoff 6s linear infinite;
+}
+@keyframes showoff {
+    0% {opacity:1}
+    20%{opacity:0.75}
+    40%{opacity:0.5}
+    80%{opacity:0.25}
+    95%{opacity:0}
+}
 
 @keyframes animateShip {
     0% { 
