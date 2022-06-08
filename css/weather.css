@@ -26,20 +26,20 @@
 }
 .weather-box2{
     position: relative;
-    top: -13%;
+    top: -15%;
     right:80%;
     z-index: 13;   
 }
 .weather-box3{
     position: relative;
-    top: -26%;
+    top: -27%;
     left:80%;
     z-index: 13;
 }  
 #NYsymbol{
     position: relative;
     left:-5%;
-    top: 38px;
+    top: 33px;
 }
 #SHsymbol{
     position: relative;
