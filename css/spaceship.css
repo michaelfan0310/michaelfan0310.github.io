@@ -20,7 +20,7 @@
    opacity: 0.5;
    margin-top: -113%;
    margin-right: -62%;
-   animation: showoff 30s linear infinite;
+   animation: showoff 60s linear infinite;
 }
 @keyframes showoff {
     0% {opacity:1}
