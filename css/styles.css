@@ -192,6 +192,13 @@ text-shadow: 2px 2px #206a5d;
   text-shadow: #206a5d;
   z-index: 13;
 } 
+#expenseIndex { 
+  position: absolute;
+  top: 298%;
+  right: 5%; 
+  text-shadow: #206a5d;
+  z-index: 13;
+}
 
 h3{font-size:0.7em;
 font-family: 'Courier New', Courier, monospace }
