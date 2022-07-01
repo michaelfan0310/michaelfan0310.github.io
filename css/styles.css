@@ -117,10 +117,10 @@ width: 86%;
 .buttonWrapper{
   display:block;
   margin: 10px auto 2px auto;
-  width: 40%;
+  width: 50%;
   bottom: 1px;
   position: fixed; 
-  left:30%; 
+  left:25%; 
   z-index: 12;
    }
 
