@@ -14,7 +14,7 @@ body {
     .navbar {  
       top: 0;   
     }
-    nav.navbar.navbar-default {
+    .nav.navbar.navbar-default {
         border-bottom: none;
     }
   
@@ -45,7 +45,7 @@ body {
       top:-30%;
     }                          
     a{color:#feffde;
-    text-shadow: 2px 2px #206a5d;  
+      text-shadow: 2px 2px #6dc2b2;  
     /* cursor: url(image/shipCursor.cur),pointer; */
     }    
  
