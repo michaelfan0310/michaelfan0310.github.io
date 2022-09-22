@@ -1,11 +1,15 @@
 .newsContent{
   /* margin-top: 6%; */
+  height: 55%;
+  overflow-y:scroll;
   font-size: 1.1rem;
   font-family: "Lucida Console", "Courier New", monospace;
-    color: rgba(246, 246, 250, 0.418);
-    text-shadow:2px 2px rgb(11, 18, 19);
-    position: relative;
-    top:-95%;}
+  color: rgba(246, 246, 250, 0.418);
+  text-shadow:2px 2px rgb(11, 18, 19);
+  position: relative;
+  z-index: 99;
+  top: 0%;
+  }
 #newstitle1,#newstitle2,#newstitle3{
     margin-bottom: 2%;
 }
@@ -23,7 +27,9 @@ this layer is too low*/
 background: #202030a4;
 text-align: center;
 line-height:48px;
-width: 65%;
+width:68%;
+height: 45%;
+/* overflow: y; */
 margin: 28px auto 28px auto;
 padding:25px; 
 margin-bottom: 2px;

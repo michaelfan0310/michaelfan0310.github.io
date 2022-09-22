@@ -74,7 +74,7 @@ if(stars.length>500){//this reduces the lagging
 
  for(var i=0;i<200;i++){
      stroke(255, 255, 255);
-     strokeWeight(random(0.9,3.5));
+     strokeWeight(random(0.8,3.3));
      point(random(width),random(height));
  }
 };    
