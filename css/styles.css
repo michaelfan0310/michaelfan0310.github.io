@@ -195,8 +195,7 @@ text-shadow: 2px 2px #206a5d;
   position: absolute;
   top: 108%;
   right: 5%; 
-  text-shadow: #206a5d;
- 
+  text-shadow: #206a5d; 
   z-index: 13;
 }
 
@@ -268,7 +267,6 @@ font-family: Parisienne}
   margin-bottom: 0px; 
   z-index: -1;
 }
-
 
 #titlepage3{
   font-family: 'Lobster',cursive,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
