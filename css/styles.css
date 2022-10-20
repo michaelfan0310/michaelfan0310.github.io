@@ -25,7 +25,7 @@ html { cursor:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAgCAYAAAD
 	align-items: center;
   position: sticky;
   position: -webkit-sticky;/* Safari用 */
-  top: 0;
+  top: 0%;
   z-index: 2;  
   border:none;
 
@@ -60,7 +60,8 @@ nav.navbar.navbar-default {
  }
 
 h1{color: rgba(219, 214, 214, 0.781);
-text-shadow: 0px 2px #51a08f38;}
+text-shadow: 0px 2px #51a08f38;
+}
 h2 {
 display: block;
 padding-top: 0;
@@ -85,7 +86,7 @@ text-shadow: 2px 2px #01161215;
   justify-content: center;
   position: absolute;
   z-index: 19;
-  top: 49%;
+  top: 51%;
   left: 47%;;
   
 }
@@ -106,12 +107,12 @@ text-shadow: 2px 2px #01161215;
 
 .container{
   position: relative;
-  top:-14%;
+  top:5%;
 }
 #today{
   font-family:  Cambria,cursive;
   font-size: 2.5rem;
-  margin-top: -10%;
+  margin-top: 15%;
   /* color: #2a2a2a; */
 }
 
@@ -123,7 +124,7 @@ text-shadow: 2px 2px #01161215;
 
 #slideshow img {
 display: block;
-margin: 15px auto 0 auto;
+margin: 2px auto 0 auto;
 padding: 4% 3% 2%;
 width: 86%;
 /* height: 60%;  */
@@ -160,7 +161,8 @@ width: 86%;
  color: red;
  }
 
-.btn:hover {transform: scale(1.5);}
+.btn:hover {transform: scale(1.5);
+  text-decoration-line: none;}
 
 .btn .btn-outline-light
 {   color:whitesmoke;        
@@ -169,7 +171,7 @@ width: 86%;
                    
 a{color:#feffde;
 text-shadow: 2px 2px #206a5d;  
-/* cursor: url(image/shipCursor.cur),pointer; */
+text-decoration-line: none;
 }
 
 
@@ -289,14 +291,15 @@ font-family: Parisienne}
 
 footer{
   margin-top: 0%;  
-  padding-top: 2px;
+  padding-top: 1px;
   padding-right: 3%;
-  color:antiquewhite;
+  color:rgba(207, 150, 75, 0.673);
   height:5px;
-  background-color: #1d695b;
-  text-align: right; 
-  
+  background-color: #08483cf0;
+  text-align: right;    
 }
+
+
 .carousel-item {
   width: 99vw;  
   height: 100vh;
@@ -337,6 +340,21 @@ footer{
   left:1%;
   /* padding-bottom:1%; */
   background-color: #f5efef;
+}
+.carousel-control-next, .carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 0.5%;
+  color: #0a000013;
+  text-align: center;
+  opacity: .01;
 }
 
 
