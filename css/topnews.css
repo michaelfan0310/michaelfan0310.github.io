@@ -1,6 +1,6 @@
 .newsContent{
   /* margin-top: 6%; */
-  height: 55%;
+  height: 65%;
   overflow-y: auto;
   font-size: 1.1rem;
   font-family: "Lucida Console", "Courier New", monospace;
@@ -28,13 +28,26 @@ background: #202030a4;
 text-align: center;
 line-height:48px;
 width:70%;
-height: 45%;
+height: 55%;
 /* overflow: y; */
 margin: 28px auto 28px auto;
 padding:25px; 
 margin-bottom: 2px;
 border-radius: 12px;
 }
+.wrapperText2 {
+    /* border:3px groove #B0C4DE; */
+    background: #202030a4;
+    text-align: center;
+    line-height:48px;
+    width:70%;
+    height: 25%;
+    /* overflow: y; */
+    margin: 28px auto 28px auto;
+    padding:25px; 
+    margin-bottom: 2px;
+    border-radius: 12px;
+    }
 
 
 #topnews{
