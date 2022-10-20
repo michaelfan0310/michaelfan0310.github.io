@@ -143,6 +143,7 @@ width: 86%;
   position: fixed; 
   left:25%; 
   z-index: 12;
+  text-decoration: none;
    }
 
 #page1{
@@ -159,15 +160,19 @@ width: 86%;
 #faviconSmall {
   margin-right: 8px;
 }
-.btn:hover,  .btn:focus{
-  background-color: aquamarine;}
+.btn:hover{
+  text-decoration: none;
+}
 
 .bth:active {
  color: red;
  }
 
-.btn:hover {transform: scale(1.5);
-  text-decoration-line: none;}
+.btn:hover, .btn:focus{
+  transform: scale(1.5);
+  color:#feffde;
+  text-decoration: none;
+  background-color: aquamarine;}
 
 .btn .btn-outline-light
 {   color:whitesmoke;        
@@ -176,9 +181,12 @@ width: 86%;
                    
 a{color:#feffde;
 text-shadow: 2px 2px #206a5d;  
-text-decoration-line: none;
+text-decoration: none;
 }
-
+a:link{
+  color:#feffde;
+  text-decoration: none!important;
+}
 
 #bkpic2{  
   width: 100vw;
@@ -277,7 +285,7 @@ font-family: Parisienne}
 
 #titlepage3{
   font-family: 'Lobster',cursive,Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 4rem;
+  font-size: 3.5rem;
   position:relative;
   top:4%;
   color:rgb(36, 134, 126);
@@ -301,7 +309,8 @@ footer{
   color:rgba(207, 150, 75, 0.673);
   height:5px;
   background-color: #08483cf0;
-  text-align: right;    
+  text-align: right;  
+  text-decoration: none;  
 }
 
 
