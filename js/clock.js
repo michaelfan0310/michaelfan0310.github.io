@@ -50,7 +50,7 @@ var currentTime = setInterval(function () {
         q.textContent =  "Why are you still working??DreamMakingTime";
         h1.style.color="#3D2C8D";
         h2.style.color="rgb(61, 44, 141,0.6)";
-        $("#bkpic3").css("background-image", "url(image/postEvening-bg.jpg)");
+        $("#bkpic3").css("background-image", "url(image/postEvening2-bg.jpg)");
     }
 }, 1000);
 
