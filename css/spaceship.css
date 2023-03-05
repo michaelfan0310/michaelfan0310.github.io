@@ -18,8 +18,8 @@
    position: sbsolute;
    z-index: 9;
    opacity: 0.5;
-   margin-top: -73%;
-   margin-right: -62%;
+   margin-top: -12%;
+   margin-left: 62%;
    animation: showoff 60s linear infinite;
 }
 @keyframes showoff {
