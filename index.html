@@ -51,53 +51,100 @@
 
 <body>
   <!-- <div class=container-fluid> -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: rgba(10, 2, 23, 0.9);"
-    id="mainNav">
-    <div class="container">
-      <a class="navbar-brand cursor" href="http://michaelfan.tk/library/"><img id="faviconSmall"
-          src="./image/favicon.png" alt="icon" width="40px" height="24px" />Michael's Blog</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-        aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav md-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="home.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://www.michaelfan.ml/vue_aboutme/">About</a>
-          </li>
-          <li class="nav-item">
-            <!-- <a class="nav-link" href="https://polar-escarpment-84617.herokuapp.com/">Post</a> -->
-            <a class="nav-link" href="https://www.michaelfan.ml/testWord/">Post</a>
+  <div class="container"></div>
+  <nav class="navbar fixed-top navbar-expand-xl justify-content-between navbar-light"
+    style="background-color: rgba(10, 2, 23, 0.9);" id="mainNav">
 
-          </li>
+    <a class="navbar-brand cursor" href="http://michaelfan.tk/library/"><img id="faviconSmall" src="./image/favicon.png"
+        alt="icon" width="40px" height="24px" />Michael's Blog</a>
 
-          <li class="nav-item">
-            <a class="nav-link" href="https://socialist-syrup-01160.herokuapp.com/">Contact</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+      aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
 
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="http://michaelfan.tk/onlineword/dictionaryEntry.php">Mydict</a>
-          </li>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
 
-          <li class="nav-item">
-            <a class="nav-link" href="http://michaelfan.tk/empManage/login.php">MySQL</a>
+      <ul class="navbar-nav mr-auto mt-lg-2 mt-lg-0">
 
-          </li>
+        <li class="nav-item">
+          <a href="#">&nbsp;&nbsp;</a>
+        </li>
 
-          <div class="col-lg-8 text-end">
-            <button type="button" class="btn btn-primary"><a
-                href="https://dry-taiga-95009.herokuapp.com/">Sign-up</a></button>
+        <li class="nav-item active">
+          <a class="nav-link" href="home.html">Home&nbsp;&nbsp;</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.michaelfan.ml/vue_aboutme/">About&nbsp;&nbsp;</a>
+        </li>
+        <li class="nav-item">
+          <!-- <a class="nav-link" href="https://polar-escarpment-84617.herokuapp.com/">Post</a> -->
+          <a class="nav-link" href="https://www.michaelfan.ml/testWord/">Post&nbsp;&nbsp;</a>
+
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="https://socialist-syrup-01160.herokuapp.com/">Contact&nbsp;&nbsp;</a>
+
+        </li>
+        <li class="nav-item" id="app_dict" name="show_hide">
+
+          <label class="rt">
+            <a class="nav-link" href="http://michaelfan.tk/onlineword/wordQuery.php">Dict&nbsp;&nbsp;</a>
+          </label>
+          <div class="app_items" id="app_dict_items">
+            <div class="app">
+              <h3>EnWords</h3>
+              <a href="#" class="app"></a>
+              <a href="#" class="android"></a>
+
+            </div>
+            <div class="bank">
+              <a href="http://michaelfan.tk/onlineword/dictionaryEntry.php">Mydict</a>
+              <a href="#" class="android"></a>
+            </div>
           </div>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
+        </li>
+        
+
+        <li class="nav-item" id="app_sql" name="show_hide">
+          <label class="rt">
+            <a class="nav-link" href="http://michaelfan.tk/empManage/login.php">SQL</a>
+          </label>
+          <div class="app_items" id="app_sql_items">
+            <div class="app">
+              <h3>MongoDB</h3>
+              <a href="#" class="app"></a>
+              <a href="#" class="android"></a>
+
+            </div>
+            <div class="bank">
+              <a href="http://michaelfan.tk/empManage/login.php">MySQL</a>
+              <a href="#" class="android"></a>
+            </div>
+          </div>
+
+
+        </li>
+
+        <!-- <li class="nav-item">
+            <button type="button" class="btn btn-primary"><a
+              href="https://dry-taiga-95009.herokuapp.com/">Sign-up</a></button>
+
+          </li> -->
+      </ul>
+      <div class="col-lg-8 text-end">
+        <button type="button" class="btn btn-primary"><a
+            href="https://dry-taiga-95009.herokuapp.com/">Sign-up</a></button>
+      </div>
+
+    </div>
+
+  </nav>
+  </div>
   <!-- try to remove solarsystem  -->
 
 
@@ -435,7 +482,7 @@
 
 
 <!-- <script src="primus/primus.js"> </script> -->
-<script src="jquery/jquery.min.js"></script>
+<!-- <script src="jquery/jquery.min.js"></script> -->
 <script src="js/bootstrap.bundle.min.js"></script>
 
 <!-- Custom scripts for this template -->
@@ -462,6 +509,7 @@
 
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/app.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.bundle.min.js"
   integrity="sha512-PqRelaJGXVuQ81N6wjUrRQelCDR7z8RvKGiR9SbSxKHPIt15eJDmIVv9EJgwq0XvgylszsjzvQ0+VyI2WtIshQ=="
   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
