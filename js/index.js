@@ -48,6 +48,6 @@ var day = document.getElementsByClassName('day');
 day[0].innerHTML=d.getDate();
 day[1].innerHTML=d.getDate();
 var CURRENTYEAR=document.getElementById('year');
-CURRENTYEAR.textContent= new Date().getFullYear()+"         Michael Fan";
+// CURRENTYEAR.textContent= new Date().getFullYear()+"         Michael Fan";
 
 
