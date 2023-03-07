@@ -1,6 +1,7 @@
 $(function () {
      showhide()
-     search()
+     searchpage()
+     search1()
 
      function showhide () {
         $('[name=show_hide]').hover(function () { // 显示
@@ -12,7 +13,9 @@ $(function () {
         })
       }
 
-      function search() {
+      
+
+      function searchpage() {
         $('#txtSearch')
           .on('foucs keyup',function () {
             var text = this.value.trim()
@@ -22,6 +25,19 @@ $(function () {
           })
           .blur(function () {
             $('#search_helper').hide()
+          })
+      }
+
+      function search1() {
+        $('#txtSearch1')
+          .on('foucs keyup',function () {
+            var text = this.value.trim()
+            if (text){
+              $('#search_helper1').show()
+            }
+          })
+          .blur(function () {
+            $('#search_helper1').hide()
           })
       }
 })

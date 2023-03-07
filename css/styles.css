@@ -45,9 +45,7 @@
   }
   nav.navbar.navbar-default {
       border-bottom: none; 
-  }
-  
-  
+  }  
   
   #title-1, #favicon, .subheading {
     position: relative;
@@ -64,8 +62,6 @@
     bottom: 0;
     background-color: rgba(58, 57, 57, 0.06);
     z-index: 2; 
-    /* cursor: url("./image/shipCursor.cur"),auto; */
-    /* cursor: url("image/shipCursor.png"); Add a pointer on hover */
   }
    .overlay-2{
       position: fixed;
@@ -365,32 +361,42 @@
     color: #fff;
     height: 30px;
   }
-  #search_helper {
-    overflow: hidden;
+  #search_box{
     position: relative;
-    top: 38px;
-    left: 0px;
+  }
+  #search_helper, #search_helper1 {
+    overflow: hidden;
+    position: absolute;
+    top: 18px;
+    left:60%;
     width: 416px;
     border: 1px solid #08483cf0;
-    background: #ffffffdb;
+    background: #ffffff16;
     /* box-shadow: 0 0 5px #999; */
     display: none;
-    z-index: 2;
+    z-index: 18;
   }
   
-  #search_helper p, #search_helper b,#search_helper span{
+  #search_helper p, #search_helper b,#search_helper span,
+  #search_helper1 p, #search_helper1 b,#search_helper1 span{
     padding: 1px 6px;
     line-height: 22px;
     cursor: pointer;
-    color:#05352cf0;
+    color:#e5edebf0;
   }
-  #txtSearch{
-    writing-mode: horizontal-tb !important;
-    
-    background-color: #ffffff23;;
+  #txtSearch,  #txtSearch1 {
+    writing-mode: horizontal-tb !important;    
+    background-color: #ffffff23;;    
+  }
+  #txtSearch1, .button{
+    position: absolute;
+    left: 82%;
+  }
+
+  #txtSearch, .button{
+    position: absolute;
     
   }
-  
   
   
   
