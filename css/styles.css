@@ -367,14 +367,17 @@
   #search_helper, #search_helper1 {
     overflow: hidden;
     position: absolute;
-    top: 18px;
-    left:60%;
+    top: 10%;
+    right: -65%;
     width: 416px;
     border: 1px solid #08483cf0;
     background: #ffffff16;
     /* box-shadow: 0 0 5px #999; */
     display: none;
     z-index: 18;
+  }
+  #search_helper{
+    right: 5%;
   }
   
   #search_helper p, #search_helper b,#search_helper span,
@@ -388,14 +391,14 @@
     writing-mode: horizontal-tb !important;    
     background-color: #ffffff23;;    
   }
-  #txtSearch1, .button{
+  #txtSearch1,#txtSearch_btn1{
     position: absolute;
-    left: 82%;
+    left: 93%;
   }
 
-  #txtSearch, .button{
+  #txtSearch, #txtSearch_btn{
     position: absolute;
-    
+    left: 53%;
   }
   
   

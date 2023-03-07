@@ -22,9 +22,11 @@ $(function () {
             if (text){
               $('#search_helper').show()
             }
+            text=""
           })
           .blur(function () {
             $('#search_helper').hide()
+            this.value=""
           })
       }
 
@@ -35,9 +37,11 @@ $(function () {
             if (text){
               $('#search_helper1').show()
             }
+            
           })
           .blur(function () {
             $('#search_helper1').hide()
+            this.value=""
           })
       }
 })
