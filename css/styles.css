@@ -283,7 +283,7 @@
     padding-top: 1px;
     padding-right: 3%;
     color:rgba(207, 150, 75, 0.673);
-    height:5px;
+    height:inherit;
     background-color: #08483cf0;
     text-align: right;  
     text-decoration: none;  
