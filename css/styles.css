@@ -96,48 +96,14 @@
   text-shadow: 2px 2px #01161215;
   }
   
-  #expense-date {
-      
-    width: 100px;
-    height: 100px;
-    border: 1px solid #928c8c;
-    background-color: #a078781e;
-    /* color: #2a2a2a; */
-    border-radius: 12px;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    z-index: 19;
-    top: 108%;
-    left: 47%;;
-    
-  }
   
-  .expense-date__month {
-    font-size: 0.75rem;
-    font-weight: bold;
-  }
-  
-  .expense-date__year {
-    font-size: 0.75rem;
-  }
-  
-  .expense-date__day {
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
   
   .container{
     position: relative;
     top:-1%;
     
   }
-  #today{
-    font-family:  Cambria,cursive;
-    font-size: 2.5rem;
-    margin-left: -30px;  
-   
-  }
+ 
   
   #bkpic{
     height: 100vh;
@@ -440,21 +406,6 @@
       font-size: 0.8rem;
   }
 
- /* body{
-    zoom: 0.99;
-    transform: scale(0.9);
-    transform-origin: 0 0;
-    -webkit-transform: scale(0.9);
-    -webkit-transform-origin: 0 0;
-    -moz-transform: scale(0.9);
-    -moz-transform-origin: 0 0;
-    -o-transform: scale(0.9);
-    -o-transform-origin: 0 0;
-} */
-  .container{
-    position: relative;
-    top:24%;
-  }
 
   .site-heading, .subheading h1{
      font-size: 0.75rem;
@@ -471,6 +422,7 @@
   #favicon1{
     height:50px;
     width:75px;
+    position: absolute;
   }
   .main-date{
     position: relative;
@@ -534,7 +486,7 @@
     line-height: 10%; 
   }
   .main-date{
-    position: relative;  
+    position: absolute;  
     margin-top: -20%;
   }
   #workPlan{

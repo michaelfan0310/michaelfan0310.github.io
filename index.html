@@ -41,7 +41,7 @@
   <link rel='stylesheet' type='text/css' href='css/clock.css'>
   <link rel='stylesheet' type='text/css' href='css/spaceship.css'>
   <link rel='stylesheet' type='text/css' href='css/pomodoro.css'>
-  <link rel='stylesheet' type='text/css' href='css/weather.css'>
+  <link rel='stylesheet' type='text/css' href='css/weather-date.css'>
   <link rel='stylesheet' type='text/css' href='css/topnews.css'>
   <link rel='stylesheet' type='text/css' href='css/stars.css'>
   <link rel='stylesheet' type='text/css' href='css/iss.css'>
@@ -167,7 +167,7 @@
 
     <header class="masthead" id="bkpic" style="background-image: url(image/bg1.jpg)">
       <div class="overlay"></div>
-      <div class="container">
+      <div class="container" id="container1">
         <div class="row">
           <div class="col-lg-8 col-md-10 mx-auto">
             <div class="site-heading">
@@ -198,41 +198,42 @@
 
           </div>
         </div>
-        <div id="expense-date">
-          <div id="month" className="expense-date__month">month</div>
-          <div class="day" className="expense-date__day">day</div>
-          <div id="thisyear" className="expense-date__year">year</div>
-          <h2 id="today">Today</h2>
-        </div>
+       <div id="weather-date">
+          <div class="weather-box">
+            <h3 class="localWeather"> London(ON): <img id="weatherIcon" src="" alt="icon" width="130" /> <span
+                id="weather1">
+                &nbsp;</span>&nbsp;&nbsp;
+              <span id="weather2"></span>&#8451;
+            </h3>
+          </div>
 
-        <div class="weather-box">
-          <h3 class="localWeather"> London(ON): <img id="weatherIcon" src="" alt="icon" width="130" /> <span
-              id="weather1">
-              &nbsp;</span>&nbsp;&nbsp;
-            <span id="weather2"></span>&#8451;
-          </h3>
-        </div>
+          <div id="expense-date">
+            <div id="month" className="expense-date__month">month</div>
+            <div class="day" className="expense-date__day">day</div>
+            <div id="thisyear" className="expense-date__year">year</div>
+            <h2 id="today">Today</h2>
+          </div>        
 
-        <div class="weather-box2">
-          <img id="NYsymbol" src="image/NY.png" alt="NYsymbol" width="200px" />
-          <h6 class="cityWeather">
-            <img id="weatherIcon2" src="" alt="" width="40" />
-            <span id="weather3">
-            </span>
-            <span id="weather4"></span>&#8451;
-          </h6>
-        </div>
+          <div class="weather-box2">
+            <img id="NYsymbol" src="image/NY.png" alt="NYsymbol" width="200px" />
+            <h6 class="cityWeather">
+              <img id="weatherIcon2" src="" alt="" width="40" />
+              <span id="weather3">
+              </span>
+              <span id="weather4"></span>&#8451;
+            </h6>
+          </div>
 
-        <div class="weather-box3">
-          <img id="SHsymbol" src="image/SH.png" alt="SHsymbol" width="120px" />
-          <h6 class="cityWeather">
-            <img id="weatherIcon3" src="" alt="" width="40" />
-            <span id="weather5">
-            </span>
-            <span id="weather6"></span>&#8451;
-          </h6>
-        </div>
-      
+          <div class="weather-box3">
+            <img id="SHsymbol" src="image/SH.png" alt="SHsymbol" width="120px" />
+            <h6 class="cityWeather">
+              <img id="weatherIcon3" src="" alt="" width="40" />
+              <span id="weather5">
+              </span>
+              <span id="weather6"></span>&#8451;
+            </h6>
+          </div>
+       </div>
 
       </div>
 

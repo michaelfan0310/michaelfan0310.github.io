@@ -5,7 +5,45 @@
     color:aqua;
     /* text-align:left;  */
 }
+#weather-date{
+    position: relative;
+    }
+#expense-date {      
+    width: 100px;
+    height: 100px;
+    border: 1px solid #928c8c;
+    background-color: #a078781e;
+    /* color: #2a2a2a; */
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 19;
+    top: 108%;
+    left: 47%;
+    
+  }
+  
+  .expense-date__month {
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+  
+  .expense-date__year {
+    font-size: 0.75rem;
+  }
+  
+  .expense-date__day {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
 
+  #today{
+    font-family:  Cambria,cursive;
+    font-size: 2.5rem;
+    margin-left: -30px;  
+   
+  }
 .localWeather{
     font-size: 2rem;
     font-weight: 600;
@@ -65,32 +103,12 @@ width: 34%;
 }
 
 @media only screen and (max-width: 1300px){
-.localWeather{
-    font-size: 1.5rem;
-    color: rgba(236, 230, 230, 0.548);
-    text-shadow:3px 3px#064237;
+     #container1{
+        position: absolute;        
+     }
+    
 }
-.weather-box{
-    position: relative;
-    top: -10%;
-    z-index: 13;
-}
-
-.weather-box2{
-    position: relative;
-    top: -11%;
-    right:70%;
-    z-index: 13;
-    font-size: 0.5rem;
-}
-.weather-box3{
-    position: relative;
-    top: -29%;
-    left:70%;
-    z-index: 13;
-    font-size: 0.5rem;
-}
-}
+/* 
 @media only screen and (max-width: 1024px){
 #openweathermap-widget-1{
 position: relative;
@@ -99,7 +117,7 @@ z-index:-3;
 display: block;
 align-items: center;
 /* margin-left: -1%; */
-width: 12%;
+/* width: 12%;
 }
 .localWeather{
     font-size: 1.5rem;
@@ -199,4 +217,4 @@ width: 2%;
     #NYsymbol{width:60%;}
  #SHsymbol{width:130%;
           }
-}
+} */ 
