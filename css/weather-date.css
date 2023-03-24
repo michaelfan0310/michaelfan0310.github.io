@@ -1,12 +1,13 @@
 #location{
     position: relative;
     left: -35%;
-    top:5%;
+    top:-2%;
     color:aqua;
     /* text-align:left;  */
 }
 #weather-date{
     position: relative;
+    top:-10%;
     }
 #expense-date {      
     width: 100px;
@@ -19,7 +20,7 @@
     justify-content: center;
     position: absolute;
     z-index: 19;
-    top: 108%;
+    top: 88%;
     left: 47%;
     
   }
