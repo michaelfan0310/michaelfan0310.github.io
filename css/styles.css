@@ -39,10 +39,10 @@
     align-items: center;
     position: sticky;
     position: -webkit-sticky;/* Safari用 */
-    
     top: 0%;
     z-index: 2;  
     border:none;
+    padding: 0.2rem 1rem;
   }
   nav.navbar.navbar-default {
       border-bottom: none; 
@@ -68,12 +68,8 @@
       position: fixed;
       background-color: rgba(58, 57, 57, 0.548);
    }
-   h1,
-   h2
-    {
-     font-weight: 900;
-     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-   }
+   h1, h2  {  font-weight: 900;
+              font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;   }
   h1{
   text-shadow: 0px 2px #51a08f38;
   }
@@ -87,16 +83,13 @@
   font-size: 1.5em;
   font-style: italic;
   text-shadow: 2px 2px #01161215;
-  }
-  
-  
+  }   
   
   .container{
     position: relative;
     top:-1%;
     
-  }
- 
+  } 
   
   #bkpic{
     height: 100vh;
